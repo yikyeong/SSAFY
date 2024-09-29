@@ -15,13 +15,14 @@ for tc in range(1, T+1):
                     break 
             else :
                 answer = "".join(str_list[i][j:j+M])
-
-                # if str_list[j+t][i] != str_list[(j+M-1)-t][i]:
-                #     break
-                # else:
-                #     answer = "".join(str_list[j:j+M][i])
+                
+    for i in range(N-M+1):
+        for j in range(N):
+            for t in range(M//2):
+                if str_list[i+t][j] != str_list[i+M-1-t][j]:
+                    break
+            else:
+                for c in range(i,i+M):
+                    answer += (str_list[c][j])
     print(f"#{tc} {answer}")
-
-
     
-        
