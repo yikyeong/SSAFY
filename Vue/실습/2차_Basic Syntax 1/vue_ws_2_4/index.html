@@ -19,26 +19,26 @@
     <h1>다양한 전시 정보</h1>
     <hr>
     <ul>
-      <li id="영어 제목">
+      <li :class="{'is-selected' : isSelected}">
         <label for="selected">전시 선택</label>
-        <input type="checkbox" name="selected" id="selected">
-        <h3>한글 제목</h3>
-        <p>전시 정보 설명</p>
+        <input type="checkbox" name="selected" id="selected" v-model="isSelected">
+        <h3>{{koTitle}}</h3>
+        <p v-html="description"></p>
         <hr>
-        <p>전시 위치</p>
-        <a href="전시장 링크">전시장 바로가기</a>
+        <p>{{artMuseum}}</p>
+        <a :href="museumURL">전시장 바로가기</a>
         <hr>
         <p>입장권 구매하기</p>
-        <p>가격</p>
+        <p>{{price}}원</p>
         <div>
-          <span>인원 수 : 0 명 </span>
-          <button>-</button>
-          <button>+</button>
+          <span :class="{'is-required':personCnt === 0}">인원 수 : {{personCnt}} 명 </span>
+          <button @click="decrementP">-</button>
+          <button @click="incrementP">+</button>
         </div>
         <hr>
       </li>
     </ul>
-    <p>총 입장료 : 0 원</p>
+    <p>총 입장료 : {{totalNum}} 원</p>
   </div>
   <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
   <script>
@@ -59,9 +59,42 @@
     const {createApp, ref} = Vue
     const app = createApp({
       setup(){
-        
-        return{
+        const koTitle = ref('모네 인사이드')
+        const enTitle = ref('monet-inside')
+        const artMuseum = ref("예술의 전당")
+        const museumURL = ref("https://www.sac.or.kr/")
+        const description = ref("<p> &lt;모네 인사이드&gt; 는 빛의 화가 <b>클로드 모네</b>가 남긴 소중한 명작들을 현대적 감각으로 재해석해 음악과 함께 감상하는 미디어아트 전시입니다. </p>")
+        const isSelected = ref(false)
+        const personCnt = ref(0)
+        const price = ref(1000)
+        const totalNum = ref(0)
 
+        const decrementP = () => {
+          if (personCnt.value > 0){
+            personCnt.value--
+          }
+          totalFee()
+        }
+        const incrementP = () => {
+          personCnt.value++
+          totalFee()
+        }
+        const totalFee = () => {
+          totalNum.value = price.value * personCnt.value
+        }
+        return{
+          koTitle,
+          enTitle,
+          artMuseum,
+          museumURL,
+          description,
+          isSelected,
+          personCnt,
+          price,
+          totalNum,
+          decrementP,
+          incrementP,
+          totalFee
         }
       }
     })
