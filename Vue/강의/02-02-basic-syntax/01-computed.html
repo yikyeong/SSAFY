@@ -10,8 +10,10 @@
 <body>
   <div id="app">
     <h2>남은 할 일</h2>
-    <p>{{ todos.length > 0 ? '아직 남았다' : '퇴근!' }}</p>
+    <p>{{ todos.length > 0 ? '아직 남았다.' : '퇴근!' }}</p>
     <p>{{ restOfTodos }}</p>
+    <p>{{ restOfTodos }}</p>
+    <p>{{ getRestOfTodos() }}</p>
     <p>{{ getRestOfTodos() }}</p>
   </div>
 
@@ -27,15 +29,17 @@
           { text: 'TIL 작성' }
         ])
 
+        // computed
         const restOfTodos = computed(() => {
           return todos.value.length > 0 ? '아직 남았다.' : '퇴근!'
         })
         // console.log(restOfTodos.value)
 
         // method
-        const getRestOfTodos = function (){
+        const getRestOfTodos = function () {
           return todos.value.length > 0 ? '아직 남았다.' : '퇴근!'
         }
+
 
         // computed 주의사항
         const a = ref(0)

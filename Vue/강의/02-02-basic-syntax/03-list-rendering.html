@@ -13,11 +13,11 @@
     <div v-for="item in myArr">
       {{ item.name }} / {{ item.age }}
     </div>
-    <div v-for="(item,index) in myArr">
+    <div v-for="(item, index) in myArr">
       {{ index }} / {{ item }}
     </div>
     <div v-for="(value, key, index) in myObj">
-      {{ value}} / {{ key}} / {{ index}}
+      {{ value }} / {{ key }} / {{ index }}
     </div>
 
     <!-- v-for on <template> -->
@@ -27,7 +27,6 @@
         <li>{{ item.age }}</li>
         <hr>
       </template>
-      
     </ul>
 
     <!-- nested v-for -->

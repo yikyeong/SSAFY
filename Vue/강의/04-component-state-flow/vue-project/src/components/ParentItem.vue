@@ -7,7 +7,7 @@
 
 <script setup>
 defineProps({
-  myProp : Object
+  myProp: Object
 })
 </script>
 

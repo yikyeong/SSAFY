@@ -1,13 +1,14 @@
 <template>
-  <div>
-    <h2>MyComponent</h2>
-  </div>
+  <h1>App.vue</h1>
+  <MyComponent />
 </template>
 
 <script setup>
-import MyComponent from './components/MyComponent.vue';
+// import MyComponent from './components/MyComponent.vue'
+// @ - src를 뜻하는 약어
+import MyComponent from '@/components/MyComponent.vue'
+
 </script>
 
 <style scoped>
-
 </style>

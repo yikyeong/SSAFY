@@ -1,20 +1,21 @@
 <template>
   <div>
-    <p>{{ myMsg  }}</p>
+    <p>{{ myMsg }}</p>
     <button @click="ssafy">이름 변경!</button>
   </div>
 </template>
 
 <script setup>
-  defineProps({
-    myMsg : String
-  })
+defineProps({
+  myMsg: String
+})
 
-  const emit = defineEmits(['updateName'])
+const emit = defineEmits(['updateName'])
 
-  const ssafy = function(){
-    emit('updateName')
-  }
+const ssafy = function () {
+  emit('updateName')
+}
+
 </script>
 
 <style scoped>
