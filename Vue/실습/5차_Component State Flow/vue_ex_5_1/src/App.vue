@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1>쇼핑 애플리케이션</h1>
-    <ProductList :products="products"/>
+    <ProductList :products1="products" :c="aaa"/>
   </div>
 </template>
 
@@ -18,4 +18,6 @@ const products = ref([
   { id: id++, name: '복숭아', price: 2000 },
   { id: id++, name: '수박', price: 5000 }
 ])
+
+const aaa = ref("이경바보");
 </script>
