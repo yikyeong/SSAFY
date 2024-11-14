@@ -4,6 +4,7 @@ import axios from "axios";
 
 export const useUserStore = defineStore('user', () => {
   const BASE_URL = 'http://localhost:8000/accounts'
+
   const signUp = function (userData){
     axios({
       method: 'POST',
@@ -21,7 +22,26 @@ export const useUserStore = defineStore('user', () => {
     })
   }
 
+  const token = ref("")
+
+  const logIn = function (userData){
+    axios({
+      method : "POST",
+      url : `${BASE_URL}/login/`,
+      data: {
+        username : userData.username,
+        password : userData.password
+      }
+    }).then((response) => {
+      console.log(response)
+      // 로그인 요청 성공하면 (id,password 일치하는거 있으면) => token key 응답
+      token.value = response.data.key
+    }).catch((err) => {
+      console.log(err)
+    })
+  }
+
   return {
-    signUp
+    signUp, logIn, token
   }
 }, { persist: true })

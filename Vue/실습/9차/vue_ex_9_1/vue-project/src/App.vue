@@ -14,4 +14,7 @@ import { RouterView } from 'vue-router'
 </script>
 
 <style scoped>
+nav a {
+  margin-right: 10px;
+}
 </style>
