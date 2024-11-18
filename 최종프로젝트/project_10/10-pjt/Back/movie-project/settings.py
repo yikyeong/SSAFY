@@ -59,7 +59,8 @@ REST_FRAMEWORK = {
     ],
     # permission
     'DEFAULT_PERMISSION_CLASSES': [
-        'rest_framework.permissions.AllowAny',
+        'rest_framework.permissions.IsAuthenticated', # 인증받은 사용자에게만 권한 허용
+        # 'rest_framework.permissions.AllowAny', # 인증하지 않아도 권한 허용
     ],
 }
 
