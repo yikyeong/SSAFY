@@ -14,6 +14,7 @@ class Movie(models.Model):
     movieVote = models.FloatField()
     movieRunTime = models.IntegerField()
     movieCountry = models.CharField(max_length=20)
+    posterUrl = models.CharField(max_length=255)
     genres = models.ManyToManyField(Genre, related_name="movie_genres")
     
 class Poster(models.Model):
