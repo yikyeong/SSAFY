@@ -35,7 +35,7 @@ def init_get_data(request):  # 홈
         for i, t, n, p in res:
             NOUNS.append(n)
             df.loc[len(df)] = [i, t, n, p]
-       
+
         # prev_calc_sim()
         for N in NOUNS:  # 명사 모음집을 set으로 구성한다.
             entire_nouns |= set(N.split())

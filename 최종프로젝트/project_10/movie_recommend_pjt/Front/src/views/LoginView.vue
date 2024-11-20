@@ -4,12 +4,12 @@
       <h1>로그인</h1>
       <form @submit.prevent="logIn">
         <div class="input-group">
-          <label for="username">Username:</label>
+          <label for="username">아이디</label>
           <input type="text" id="username" v-model.trim="username">
         </div>
         
         <div class="input-group">
-          <label for="password">Password:</label>
+          <label for="password">비밀번호</label>
           <input type="password" id="password" v-model.trim="password">
         </div>
 

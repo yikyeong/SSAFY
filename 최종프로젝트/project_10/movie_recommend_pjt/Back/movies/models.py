@@ -3,7 +3,7 @@ from django.conf import settings
 # Create your models here.
 
 class Genre(models.Model):
-    genreType = models.CharField(max_length=50)
+    genreType = models.CharField(max_length=100)
 
 class Movie(models.Model):
     movieTitle = models.CharField(max_length=80)
@@ -13,20 +13,13 @@ class Movie(models.Model):
     movieOpenDate = models.DateField()
     movieVote = models.FloatField()
     movieRunTime = models.IntegerField()
-    movieCountry = models.CharField(max_length=20)
-    posterUrl = models.CharField(max_length=255)
+    movieCountry = models.CharField(max_length=50)
+    moviePoster = models.CharField(max_length=255)
     genres = models.ManyToManyField(Genre, related_name="movie_genres")
-    
-class Poster(models.Model):
-    movie = models.ForeignKey(Movie, on_delete=models.CASCADE)
-    posterUrl = models.CharField(max_length=500)
-
-class Link(models.Model):
-    movie = models.ForeignKey(Movie, on_delete=models.CASCADE)
-    linkUrl = models.CharField(max_length=500, blank=True, null=True)
 
 class Comment (models.Model):
-    user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
-    movie = models.ForeignKey(Movie, on_delete=models.CASCADE)
+    user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE, related_name='user_comment')
+    movie = models.ForeignKey(Movie, on_delete=models.CASCADE, related_name='movie_comment')
     commentContent = models.TextField()
+    commentCreate = models.DateField(auto_now_add=True)
     commentUpdate = models.DateField(auto_now=True)

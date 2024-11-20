@@ -5,9 +5,15 @@ import { useRouter } from 'vue-router'
 import moviesData from '@/assets/movies_data.json'
 
 export const useMovieStore = defineStore('movie', () => {
+  // 영화 상세 정보 변수 선언
   const movie = ref([])
   const API_URL = 'http://127.0.0.1:8000'
   const token = ref(null)
+  // 영화검색 변수 선언
+  const query = ref('')
+  const videos = ref([])
+  const VideoId = ref(null)
+  const isModalVisible = ref(false)
 
   // DRF로 영화 상세 페이지 요청을 보내고 응답을 받아 movie에 저장하는 함수
   const getMovieDetail = function () {
@@ -26,6 +32,22 @@ export const useMovieStore = defineStore('movie', () => {
         console.log(err)
       })
   }
+  const searchReviews = function () {
+    if (query.value) {
+      const searchQuery = `${query.value} 영화 리뷰`
+      const url = `https://www.googleapis.com/youtube/v3/search?part=snippet&type=video&q=${searchQuery}&key=YOUR_YOUTUBE_API_KEY`
+      
+      axios({
+        method: 'get',
+        url: url
+      }).then(res => {
+        // videos.value = res.data. // 
+      }).catch(err => {
+        console.log(err)
+      })
+    }
+  }
+
   // test
   // ------------------------------------------------------------------------------------
   const movies = ref([moviesData])

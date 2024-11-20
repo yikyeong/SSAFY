@@ -39,21 +39,26 @@ def api_call_movie_list():
                 response_credit = requests.get(host + detail_path)
                 if response_credit.status_code == 200 :
                     json_object_credit = json.loads(response_credit.text)
-                    arr = json_object_credit['cast']
+                    arr1 = json_object_credit['cast']
+                    arr2 = json_object_credit['crew']
                     movie_director = ""
                     movie_actor = ""
 
-                    for obj in arr:
-                        if "department" in obj:
-                            print(obj['department'])
-                        if 'Directing' == obj['department']:
-                            movie_director = obj['name'] # yet
-                        if int(obj['order']) < 5:
+                    for obj in arr1:
+                        if 'order' in obj and int(obj['order']) < 5:
                             movie_actor += obj['name'] + ', ' # credit department:
                         else:
                             continue
+                        
+                    for obj in arr2:
+                        if "department" in obj:
+                            # print(obj['department'])
+                            if obj['department'] == 'Directing':  # 감독일 경우
+                                movie_director = obj['name']  # 감독 이름 저장 # yet
+                        else:
+                            continue
                     
-                        # print(movie_director + " :: " + movie_actor)
+                    print(movie_title)
     
 def json_parser_default(response_body):
     json_object = json.loads(response_body)
@@ -61,17 +66,19 @@ def json_parser_default(response_body):
     for obj in arr:
         movie_title = obj['title']
         movie_content = obj['overview']
-        movie_director = obj['poster_path'] # yet
+        movie_director = obj['movie_director'] # yet
         movie_actor = obj['poster_path'] # credit department:
         movie_open_date = obj['release_date']
         movie_vote = f"{obj['vote_average']:.1f}"
         movie_runtime = obj['poster_path'] # detail
         movie_country = obj['poster_path'] # detail
         movie_poster_url = obj['poster_path']
-        print(movie_vote)
+        print(movie_title)
 
 
 def insert_movie_data():
     cur = con.cursor()
 
 api_call_movie_list()
+
+

@@ -8,9 +8,9 @@
         <div class="ms-auto nav-links">
           <RouterLink :to="{ name: 'home' }" class="nav-link" active-class="active-link">홈</RouterLink>
           <RouterLink :to="{ name: 'searchReview' }" class="nav-link" active-class="active-link">리뷰검색</RouterLink>
-          <RouterLink :to="{ name: 'signUp' }" class="nav-link" active-class="active-link">회원가입</RouterLink>
-          <RouterLink :to="{ name: 'login' }" class="nav-link" active-class="active-link">로그인</RouterLink>
-          <form @submit.prevent="logOut">
+          <RouterLink v-if="!isLogin" :to="{ name: 'signUp' }" class="nav-link" active-class="active-link">회원가입</RouterLink>
+          <RouterLink v-if="!isLogin" :to="{ name: 'login' }" class="nav-link" active-class="active-link">로그인</RouterLink>
+          <form v-if="isLogin" @submit.prevent="logOut">
             <input type="submit" value="로그아웃" class="nav-link">
           </form>
           <RouterLink :to="{ name: 'searchMovie' }" class="nav-link" active-class="active-link">
@@ -27,10 +27,13 @@
 </template>
 
 <script setup>
+import { computed } from 'vue'
 import { RouterLink, RouterView } from 'vue-router';
 import { useUserStore } from '@/stores/user'
 
 const store = useUserStore()
+
+const isLogin = computed(() => store.isLogin)
 
 const logOut = function () {
   store.logOut()
