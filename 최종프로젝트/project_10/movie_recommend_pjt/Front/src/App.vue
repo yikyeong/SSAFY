@@ -6,6 +6,7 @@
         <img src="./img/logo/ssafy_logo.png" alt="logo" class="logo">
         <!-- 네비게이션 항목들을 오른쪽으로 정렬 -->
         <div class="ms-auto nav-links">
+          <p v-if="isLogin" class="nav-link">님 환영합니다!</p>
           <RouterLink :to="{ name: 'home' }" class="nav-link" active-class="active-link">홈</RouterLink>
           <RouterLink :to="{ name: 'searchReview' }" class="nav-link" active-class="active-link">리뷰검색</RouterLink>
           <RouterLink v-if="!isLogin" :to="{ name: 'signUp' }" class="nav-link" active-class="active-link">회원가입</RouterLink>

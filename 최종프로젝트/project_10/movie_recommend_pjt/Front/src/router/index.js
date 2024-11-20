@@ -37,6 +37,13 @@ const router = createRouter({
       name: 'movieRecommend',
       component: MovieRecommendView,
     },
+    {
+      path: '/profile/:id',
+      name: 'profile',
+      component: ProfileView,
+      // 5번 강의 참고
+    },
+
 
     //User 관련
 
