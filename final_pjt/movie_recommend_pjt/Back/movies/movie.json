@@ -1,0 +1,1842 @@
+[
+  {
+    "model": "movies.movie",
+    "pk": 1,
+    "field": {
+      "movie_id": 496243,
+      "movie_title": "기생충",
+      "movie_content": "전원 백수로 살 길 막막하지만 사이는 좋은 기택 가족. 장남 기우에게 명문대생 친구가 연결시켜 준 고액 과외 자리는 모처럼 싹튼 고정수입의 희망이다. 온 가족의 도움과 기대 속에 박 사장 집으로 향하는 기우. 글로벌 IT기업의 CEO인 박 사장의 저택에 도착하자 젊고 아름다운 사모님 연교와 가정부 문광이 기우를 맞이한다. 큰 문제 없이 박 사장의 딸 다혜의 과외를 시작한 기우. 그러나 이렇게 시작된 두 가족의 만남 뒤로, 걷잡을 수 없는 사건이 기다리고  있는데.....",
+      "movie_open_date": "2019-05-30",
+      "movie_vote": "8.5",
+      "movie_poster_url": "/eRM0PykovgtK4lin1D4BUql8TBa.jpg",
+      "movie_runtime": 131,
+      "movie_country": "KR",
+      "movie_director": "봉준호",
+      "movie_actor": "송강호, 이선균, 조여정, 최우식, 박소담, ",
+      "movie_genres": [
+        { "id": 35, "name": "코미디" },
+        { "id": 53, "name": "스릴러" },
+        { "id": 18, "name": "드라마" }
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 2,
+    "field": {
+      "movie_id": 553512,
+      "movie_title": "번 더 스테이지: 더 무비",
+      "movie_content": "19개 도시, 40회의 공연, 55만석 날개를 펼친 소년들의 역사. 성공적인 월드 투어로 마무리된 ‘2017 방탄소년단 라이브 트릴로지 에피소드3 윙스 투어(2017 BTS LIVE TRILOGY EPOSODE III THE WINGS TOUR)’를 가장 가까이에서 담아낸 방탄소년단의 첫 번째 영화! 지금, 우리  함께 빛나는 청춘의 순간이 스크린에 펼쳐진다.",
+      "movie_open_date": "2018-11-15",
+      "movie_vote": "8.4",
+      "movie_poster_url": "/pJKy1yvnKh8UjcuYeG3Rt35xHFA.jpg",
+      "movie_runtime": 83,
+      "movie_country": "KR",
+      "movie_director": "Park Jun-soo",
+      "movie_actor": "RM, 진, 슈가, 제이홉, 지민, ",
+      "movie_genres": [
+        { "id": 10402, "name": "음악" },
+        { "id": 99, "name": "다큐멘터리" }
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 3,
+    "field": {
+      "movie_id": 611291,
+      "movie_title": "브링 더 소울: 더 무비",
+      "movie_content": "2018년 방탄소년단 월드 투어 ‘러브 유어셀프’(BTS WORLD TOUR ‘LOVE YOURSELF’) 당시, 서울을 시작으로 수많은 도시를 지나 파리에서 유럽 투어의 기나긴 대장정을 마친 방탄소년단이 투어를 마친 다음 날, 파리의 작은 루프탑 테이블에서 그들만의 작은 뒷풀이를 담아낸 영화",
+      "movie_open_date": "2019-08-07",
+      "movie_vote": "8.4",
+      "movie_poster_url": "/uQI0fm8uPild3U5spX0I6MapSHB.jpg",
+      "movie_runtime": 103,
+      "movie_country": "KR",
+      "movie_director": "Park Jun-soo",
+      "movie_actor": "RM, 진, 슈가, 제이홉, 지민, ",
+      "movie_genres": [
+        { "id": 10402, "name": "음악" },
+        { "id": 99, "name": "다큐멘터리" }
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 4,
+    "field": {
+      "movie_id": 255709,
+      "movie_title": "소원",
+      "movie_content": "어느 비 오는 아침, 학교를 가던 9살 소녀 소원은 술에 취한 아저씨에게 끌려가 믿고 싶지 않은 사고를 당한다. 이 일로 몸과 마음에 지울 수 없는 상처를 받은 소원이네 가족. 하지만 절망 끝에서  희망을 찾아 나서는데...",
+      "movie_open_date": "2013-10-02",
+      "movie_vote": "8.4",
+      "movie_poster_url": "/PZlNvDwKwHeHUsXnd6SEDXWZNn.jpg",
+      "movie_runtime": 123,
+      "movie_country": "KR",
+      "movie_director": "이상 용",
+      "movie_actor": "설경구, 엄지원, 이레, 김상호, 김해숙, ",
+      "movie_genres": [{ "id": 18, "name": "드라마" }]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 5,
+    "field": {
+      "movie_id": 670,
+      "movie_title": "올드보이",
+      "movie_content": "오대수는 어느 날 술이 거나하게 취해 집에 돌아가는 길에 누군가에게 납치, 사설 감금방에 갇히게 된다. 중국집 군만두만을 먹으며 8평이라는 제한된 공간에서 그가 할 수 있는 일이라곤 텔레비전 보는 게 전부. 1년이 지났을 무렵, 뉴스를 통해 나오는 아내의 살해소식. 게다가 아내의 살인범으로 자신이 지목되고 있음을 알게 된 오대수는 복수와 탈출을 위해 감금방 한쪽 구석을 쇠젓가락으로 파기 시작한다. 감금 15년을 맞이하는 해, 마침내 사람 몸 하나 빠져나갈 만큼의 탈출구가 생겼을 때, 어이없게도 15년 전 납치됐던 바로 그 장소로 풀려나 있는 자신을 발견하게 된다.",
+      "movie_open_date": "2003-11-21",
+      "movie_vote": "8.3",
+      "movie_poster_url": "/xpa9ybm6tYGna5LseqSXvKpSSJn.jpg",
+      "movie_runtime": 120,
+      "movie_country": "KR",
+      "movie_director": "박찬욱",
+      "movie_actor": "최민식, 유지태, 강혜정, 김병옥, 지대한, ",
+      "movie_genres": [
+        { "id": 18, "name": "드라마" },
+        { "id": 53, "name": "스릴러" },
+        { "id": 9648, "name": "미스터리" },
+        { "id": 28, "name": "액션" }
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 6,
+    "field": {
+      "movie_id": 568300,
+      "movie_title": "러브 유어셀프 인 서울",
+      "movie_content": "2018년 8월 서울공연을 시작으로, 미주, 유럽, 아시아 등 20개 도시 41회 공연 규모로 열리는 'LOVE YOURSELF’ 투어. 현재 진행 중인 가장 핫한 콘서트를 담은 ‘러브 유 어셀프 인 서울’은 미국 빌보드 200 1위에 빛나는 글로벌 그룹 방탄소년단 월드투어의 포문을 여는 서울 콘서트를 담아냈으며, 전 세계가 기다린 최고의 무대를 더욱 생동감 있게 느낄 수 있다.",
+      "movie_open_date": "2019-01-26",
+      "movie_vote": "8.3",
+      "movie_poster_url": "/1u0rtWPgYfAWmqveXOsQDvMRODD.jpg",
+      "movie_runtime": 112,
+      "movie_country": "KR",
+      "movie_director": "Son Sung-deuk",
+      "movie_actor": "RM, 진, 슈가, 제이 홉, 지민, ",
+      "movie_genres": [
+        { "id": 10402, "name": "음악" },
+        { "id": 99, "name": "다큐멘터리" }
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 7,
+    "field": {
+      "movie_id": 740996,
+      "movie_title": "블랙핑크: 세상을 밝혀라",
+      "movie_content": "2016년 8월 8일, 괴물 신인 블랙핑크가 등장했다. 그 후로 4년, 쉼 없이 달려오며 K팝 최초의 기록을 써 내려온 그녀들. 여기서 돌아본다. 꿈을 향한 여정의 시작부터.",
+      "movie_open_date": "2020-10-14",
+      "movie_vote": "8.2",
+      "movie_poster_url": "/cMzXTf5XwgapEN3LFdksE9Eu30d.jpg",
+      "movie_runtime": 79,
+      "movie_country": "KR",
+      "movie_director": "Caroline Suh",
+      "movie_actor": "지수, 제니, 로제, 리사, Teddy Park, ",
+      "movie_genres": [
+        { "id": 99, "name": "다큐멘터리" },
+        { "id": 10402, "name": "음악" }
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 8,
+    "field": {
+      "movie_id": 290098,
+      "movie_title": "아가씨",
+      "movie_content": "어릴 적 부모를 잃고 후견인 이모부의 보호 아래 살아가는 귀족 아가씨에게 백작이 추천한 새로운 하녀가 찾아온다. 이모부의 서재에서 책을 읽는 것이 일상의 전부인 아가씨는  순박해 보이는 하녀에게 조금씩 의지하기 시작한다. 하지만 하녀의 정체는 유명한 여도둑의 딸인 소매치기 고아 소녀 숙희. 막대한 재산을 상속받게 될 아가씨를 유혹하여 돈을 가로채겠다는 사기꾼 백작의 제안을 받고  아가씨가 백작을 사랑하게 만들기 위 해 하녀가 된 것. 드디어 백작이 등장하고, 백작과 숙희는 자신만의 방식으로 아가씨의 마음을 흔들기 시작하는데...",
+      "movie_open_date": "2016-06-01",
+      "movie_vote": "8.2",
+      "movie_poster_url": "/kRrNGYnnJqyMjJJgCPuuQKSKMqn.jpg",
+      "movie_runtime": 144,
+      "movie_country": "KR",
+      "movie_director": "이자혜",
+      "movie_actor": "김민희, 김태리, 하정우, 조진웅, 김해숙, ",
+      "movie_genres": [
+        { "id": 53, "name": "스릴러" },
+        { "id": 18, "name": "드라마" },
+        { "id": 10749, "name": "로맨스" }
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 9,
+    "field": {
+      "movie_id": 81481,
+      "movie_title": "도가니",
+      "movie_content": "믿을 수 없지만, 한 청각장애인학교에서 실제 일어난 사건입니다. 2000년부터 5년간 청각장애아를 상대로 교장과 교사들이 비인간적인 성폭력과 학대를 저질렀습니다. 인정하고 싶지 않지만 이 이야기는 진실입니다. 이제 이 끔찍한 진실을 마주해야 할 시간입 니다.",
+      "movie_open_date": "2011-09-22",
+      "movie_vote": "8.2",
+      "movie_poster_url": "/p6VHOM2GuMe5MJXagoIZLy4UGXg.jpg",
+      "movie_runtime": 124,
+      "movie_country": "KR",
+      "movie_director": "Park Jung-bae",
+      "movie_actor": "공유, 정유미, 김현수, Jung In-seo, 백승환, ",
+      "movie_genres": [{ "id": 18, "name": "드라마" }]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 10,
+    "field": {
+      "movie_id": 851644,
+      "movie_title": "20세기 소녀",
+      "movie_content": "보라의 둘도 없는 친구 연두는 심장 수술을 위해 미국에 가면서 자신이 좋아하는 남자 백현진에 대한 모든 정보를 수집해 달라고 보라에게 부탁한다. 보라는 백현진의 가장 친한 친구 풍운호와 먼저 친 해지기로 한다. 하지만 보라의 서투른 계획은 예상치 못한 방향으로 전개된다. 새로운 세기가 오기 1년 전인 1999년, 17세가 된 보라는 첫사랑의 열병에 빠진다.",
+      "movie_open_date": "2022-10-06",
+      "movie_vote": "8.1",
+      "movie_poster_url": "/xM9Jt2sA6QcvLuHKM0RI3BMtFc5.jpg",
+      "movie_runtime": 119,
+      "movie_country": "KR",
+      "movie_director": "Bang Woo-ri",
+      "movie_actor": "김유정, 변우석, 박정우, 노윤서, 김성경, ",
+      "movie_genres": [
+        { "id": 10749, "name": "로맨스" },
+        { "id": 18, "name": "드라마" }
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 11,
+    "field": {
+      "movie_id": 518068,
+      "movie_title": "신과함께-인과 연",
+      "movie_content": "천 년 동안 48명의 망자를 환생시킨 저승 삼차사, 한 명만 더 환생시키면 그들도 새로운 삶을 얻을 수 있다. 하지만 강림은 원귀였던 수홍을 자신들의 마지막 귀인으로 정한다. 저승법 상 원귀는 소멸되어야하나 염라대왕은 새로운 조건을 내걸며 강림의 제안을 수락한다. 염라의 조건은 성주신이 버티고 있어 저승 차사들이 가는 족족 실패하는 허춘삼 노인을 수홍의 재판이 끝나기 전까지 저승으로 데려오는 것. 허춘삼을 데리러 이승으로 내려간  해원맥과 덕춘, 하지만 성주신의 막강한 힘 앞에 속수무책으로 당하기만 하는데...",
+      "movie_open_date": "2018-08-01",
+      "movie_vote": "8.1",
+      "movie_poster_url": "/2ETx0U2Q5gUHtPJZiQ3hakTqyaR.jpg",
+      "movie_runtime": 141,
+      "movie_country": "KR",
+      "movie_director": "김용화",
+      "movie_actor": "하정우, 주지훈, 김향기, 마동석, 김동욱, ",
+      "movie_genres": [
+        { "id": 28, "name": "액션" },
+        { "id": 12, "name": "모험" },
+        { "id": 14, "name": "판타지" },
+        { "id": 53, "name": "스릴러" }
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 12,
+    "field": {
+      "movie_id": 397567,
+      "movie_title": "신과함께-죄와 벌",
+      "movie_content": "살인, 나태, 거짓, 불의, 배신, 폭력, 천륜 7개의 지옥에서 7번의 재판을 무사히 통과한 망자만이 환생하여 새로운 삶을 시작할 수 있다. 화재 사고 현장에서 여자아이를 구하고 죽음을 맞이한 소방관 자홍, 그의 앞에 저승차사 해원맥과 덕춘이 나타난다.  자신의 죽음이 아직 믿기지도 않는데 덕춘은 정의로운 망자이자 귀인이라며 그를 치켜세운다. 저승으로 가는 입구, 초군문에서 그를 기다리는 또 한 명의 차사 강림, 그는 차사들의 리더이자 앞으로 자홍이 겪어야 할 7 개의 재판에서 변호를 맡아줄 변호사이기도 하다. 염라대왕에게 천년 동안 49명의 망자를 환생시키면 자신들 역시 인간으로 환생시켜 주겠다는 약속을 받은 삼차사들, 그들은 자신들이 변호하고 호위해야 하는 48번째 망자이자 19년 만에 나타난 의로운 귀인 자홍의 환생을 확신하지만, 각 지옥에서 자홍의 과거가 하나 둘씩 드러나면서 예상치 못한 고난과 맞닥뜨리는데…",
+      "movie_open_date": "2017-12-20",
+      "movie_vote": "8.1",
+      "movie_poster_url": "/5j2YVF7VouLG0Ze96SEsj4DnVQM.jpg",
+      "movie_runtime": 139,
+      "movie_country": "KR",
+      "movie_director": "김용화",
+      "movie_actor": "하정우, 차태현, 주지훈, 김향기, 이정재, ",
+      "movie_genres": [
+        { "id": 28, "name": "액션" },
+        { "id": 12, "name": "모험" },
+        { "id": 18, "name": "드라마" },
+        { "id": 14, "name": "판타지" },
+        { "id": 53, "name": "스릴러" }
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 13,
+    "field": {
+      "movie_id": 437068,
+      "movie_title": "택시운전사",
+      "movie_content": "택시운전사 만섭은 아내를 여의고 11살 딸을 키우며 어렵게 살림을 꾸리는 가장. 외국손님을 태우고 광주에 갔다 통금 전에 돌아오면 밀린 월세를 갚을 수 있는  거금 10만원을 준다는 말에  독일기자 피터를 태우고 영문도 모른 채 길을 나선다. 피터는 독일 공영방송 소속 기자로, 일본에서 ‘광주가 심상치 않다’는 말을 듣고 광주로 향한다. 어떻게든 택시비를 받아야 하는 만섭 의 기지로 검문을 뚫고 겨우 들어선 광주. 위험하니 서울로 돌아가자는 만섭의 만류에도 피터는 대학생 재식과 황기사의 도움 속에 촬영을 시작하는데...",
+      "movie_open_date": "2017-08-02",
+      "movie_vote": "8.1",
+      "movie_poster_url": "/pCdx7X5JLaSJZLNVtpryGSdjvvB.jpg",
+      "movie_runtime": 137,
+      "movie_country": "KR",
+      "movie_director": "배태종",
+      "movie_actor": "송강호, 토마스 크레치만, 유해진, 류준열, 박혁권, ",
+      "movie_genres": [
+        { "id": 28, "name": "액션" },
+        { "id": 18, "name": "드라마" },
+        { "id": 36, "name": "역사" }
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 14,
+    "field": {
+      "movie_id": 11423,
+      "movie_title": "살인의 추억",
+      "movie_content": "1986년 경기도. 젊은 여인이 무참히 강간, 살해당한 시체로 발견된다. 2개월 후 비슷한 수법의 강간살인사건이 연이어 발생하면서 사건은 세간의 주목을 받기 시작하고, 일대는 연쇄살인이라는 생소한 범죄의 공포에 휩싸인다. 사건 발생 지역에 특별수사본부가 설치되고, 수사본부는 구희봉 반장을 필두로 지역토박이 형사 박두만과 조용구, 그리고 서울 시경에서 자원해 온 서태윤이 배치된다. 육감과 폭력으로 수사를 진행하는 박형사와 증거와 과학수사를 추구하는 서형사는 수사 내내 마찰을 일으키는데...",
+      "movie_open_date": "2003-05-02",
+      "movie_vote": "8.1",
+      "movie_poster_url": "/3I1Ng4sxDUyPOdVu3lQ20N14PGE.jpg",
+      "movie_runtime": 127,
+      "movie_country": "KR",
+      "movie_director": "심성보",
+      "movie_actor": "송강호, 김상경, 김뢰하, 송재호, 변희봉, ",
+      "movie_genres": [
+        { "id": 80, "name": "범죄" },
+        { "id": 18, "name": "드라마" },
+        { "id": 53, "name": "스릴러" }
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 15,
+    "field": {
+      "movie_id": 11658,
+      "movie_title": "태극기 휘날리며",
+      "movie_content": "1950년 6월. 서울 종로에서 가족의 생계를 책임지기 위해 열심히 살아가는  진태는 힘든 생활 속에도 약혼녀 영신과의 결혼과, 세상에서 가장 소중하게 생각하는 동생 진석의 대학진학을 위해 언제나 활기차고 밝은 생활을 해 나간다. 6월의 어느 날, 한반도에 전쟁이 일어났다는 호외가 배포되면서 평화롭기만 하던 서울은 순식간에 싸이렌 소리와 폭발음, 그리고 사람들의 비명 소리로 가득해진다. 이에 남쪽으로 피난을 결정한 진태는 영신과 가족들을 데리고 수많은 피난행렬에 동참하지만, 피난열차를 타기 위 해 도착한 대구역사에서 거대한 운명의 소용돌이에 말려들고 만다.",
+      "movie_open_date": "2004-02-05",
+      "movie_vote": "8.0",
+      "movie_poster_url": "/9ZfNS44SZQd13EVUSu0VwEo7y18.jpg",
+      "movie_runtime": 148,
+      "movie_country": "KR",
+      "movie_director": "정두홍",
+      "movie_actor": "장동건, 원빈, 이은주, 공형진, 이영란, ",
+      "movie_genres": [
+        { "id": 28, "name": "액션" },
+        { "id": 12, "name": "모험" },
+        { "id": 18, "name": "드라마" },
+        { "id": 36, "name": "역사" },
+        { "id": 10752, "name": "전쟁" }
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 16,
+    "field": {
+      "movie_id": 18438,
+      "movie_title": "김씨 표류기",
+      "movie_content": "자살시도가 실패로 끝나 한강의 밤섬에 불시착한 남자. 죽는 것도 쉽지 않자 일단 섬에서 살아보기로 한다. 모래사장에 쓴 HELP가 HELLO로 바뀌고 무인도 야생의 삶도 살아볼 만하다고 느낄 무렵, 익명의 쪽지가 담긴 와인병을 발견하고 그의 삶은 알 수 없는 희망으로 설레기 시작한다. 한편 자신의 좁고 어두운 방이 온 지구이자 세상인 여자. 홈페이지 관리, 하루 만보 달리기 등 그녀만의 생활리듬도 있다. 유일한 취미인 달사진 찍기에 열중하던 어느 날, 저 멀리  한강의 섬에서 낯선 모습을 발견하고 그에게 리플을 달아주기로 하는 그녀는 3년 만에 자신의 방을 벗어나 그를 향해 달려가는데...",
+      "movie_open_date": "2009-05-14",
+      "movie_vote": "8.0",
+      "movie_poster_url": "/eccgbNOv2FhfWgQv4Q5iS4haGVQ.jpg",
+      "movie_runtime": 116,
+      "movie_country": "KR",
+      "movie_director": "Park Ji-wan",
+      "movie_actor": "정재영, 정려원, 양미경, 이상훈, 장소연, ",
+      "movie_genres": [
+        { "id": 18, "name": "드라마" },
+        { "id": 35, "name": "코미디" },
+        { "id": 10749, "name": "로맨스" }
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 17,
+    "field": {
+      "movie_id": 488623,
+      "movie_title": "기억의 밤",
+      "movie_content": "새 집으로 이사 온 날 밤, 정체불명의 괴한들에게 납치된 형 유석. 동생 진석은 형이 납치된 후 매일 밤 환청과 환각에 시달리며 불안해한다. 납치된지 19일째 되는 날 돌아온 유석은 그동안의 모든 기억을 잃었다고 말한다. 하지만 돌아온 뒤로 어딘가 변해버린 유석을 의심하던 진석은 매일 밤 사라지는 형을 쫓던 중 충격적인 사실과 마주하게 되는데...",
+      "movie_open_date": "2017-11-29",
+      "movie_vote": "8.0",
+      "movie_poster_url": "/pXHLaA2dvIfJ3NbslufKqvS48dt.jpg",
+      "movie_runtime": 109,
+      "movie_country": "KR",
+      "movie_director": "장항준",
+      "movie_actor": "강하늘, 김무열, 문성근, 나영희, 남명렬, ",
+      "movie_genres": [
+        { "id": 53, "name": "스릴러" },
+        { "id": 9648, "name": "미스터리" },
+        { "id": 80, "name": "범죄" }
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 18,
+    "field": {
+      "movie_id": 158445,
+      "movie_title": "7번방의 선물",
+      "movie_content": "최악의 흉악범들이 모인 교도소 7번방에 이상한 놈이 들어왔다! 그는 바로 6살 지능의 딸바보 용구. 평생 죄만 짓고 살아온 7번방 패밀리들에게 떨어진 미션은 바로 용구 딸 예승이를 외부인 절대 출입금지인 교도소에 반.입.하.는.것! 웃음과 감동 가득한 사상초유의 합동작전이 시작된다!",
+      "movie_open_date": "2013-01-23",
+      "movie_vote": "7.9",
+      "movie_poster_url": "/c9TqJPm4pZCuiEXumTayoNIrBSK.jpg",
+      "movie_runtime": 127,
+      "movie_country": "KR",
+      "movie_director": "이환경",
+      "movie_actor": "류승룡, 박신혜, 갈소원, 정진영, 오달수, ",
+      "movie_genres": [
+        { "id": 18, "name": "드라마" },
+        { "id": 35, "name": "코미디" }
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 19,
+    "field": {
+      "movie_id": 94047,
+      "movie_title": "마이웨이",
+      "movie_content": "1938년 경성. 제 2의 손기정을 꿈꾸는 조선청년 준식과 일본 최고의 마라톤 대표선수 타츠오. 어린 시절부터 서로에게 강한 경쟁의식을 가진 두 청년은 각각 조선과 일본을 대표하는 세기의 라이벌로 성장한다. 그러던 어느 날, 준식은 예기치 못한 사건에 휘말려 일본군에 강제 징집되고 그로부터 1년 후, 일본군 대위가 된 타츠오와 운명적인 재회를 하게 된다. 2차  세계대전의 거대한 소용돌이에 던져진 두 청년은 중국과 소련, 독일을 거쳐 노르망디에 이르는 12,000Km의 끝나지 않는 전쟁을 겪으며 점차 서로의 희망이 되어가는데… 적으로 만나 서로의 희망이 된 조선과 일본의 두  청년 국적을 초월한 인간애의 드라마가 시작된다!",
+      "movie_open_date": "2011-12-21",
+      "movie_vote": "7.8",
+      "movie_poster_url": "/iMtEu7346RUV26OMwoqOPHrKERe.jpg",
+      "movie_runtime": 137,
+      "movie_country": "KR",
+      "movie_director": "Chang Joo Yang",
+      "movie_actor": "장동건, 오다기리 조, 판빙빙, 김인권, 이연희, ",
+      "movie_genres": [
+        { "id": 18, "name": "드라마" },
+        { "id": 28, "name": "액션" },
+        { "id": 36, "name": "역사" },
+        { "id": 10752, "name": "전쟁" }
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 20,
+    "field": {
+      "movie_id": 2440,
+      "movie_title": "공동경비구역 JSA",
+      "movie_content": "비무장지대 수색 중 지뢰를 밟아 대열에서 낙오된 이수혁 병장은 북한군 중사 오경필과 전사 정우진의 도움으로 다행히 목숨을 건진다. 이를 계기로 그들은 친해졌고 이수혁 병장은 군사분계선을 넘어 그들을 만나러 간다. 그러던 어느날 그들이 만나는 장면을 북한군에게 들키 고 친형제처럼 친하게 지내던 그들은 서로 총부리를 겨눈다. 그리고 판문점 공동경비구역 내 북한 초소에서 총성이 울린다. 사건의 진상을 밝히기 위해 중립국 감독위원회 소속의 한국계 스위스인 소피 장 소령이 파견된다. 그녀는 진실을 밝히기 위해 그들을 만나는데...",
+      "movie_open_date": "2000-09-09",
+      "movie_vote": "7.8",
+      "movie_poster_url": "/6pZw6KFwrADsS4HYfJe8AHMwpQh.jpg",
+      "movie_runtime": 110,
+      "movie_country": "KR",
+      "movie_director": "유흥삼",
+      "movie_actor": "이영애, 이병헌, 송강호, 김태우, 신하균, ",
+      "movie_genres": [
+        { "id": 10752, "name": "전쟁" },
+        { "id": 18, "name": "드라마" },
+        { "id": 53, "name": "스릴러" },
+        { "id": 9648, "name": "미스터리" }
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 21,
+    "field": {
+      "movie_id": 530254,
+      "movie_title": "마녀",
+      "movie_content": "10년 전 의문의 사고가 일어난 시설에서 홀로 탈출한 후 모든 기억을 잃은 자윤. 나이도, 이름도 모르는 자신을 거두고 키워준 노부부의 보살핌으로  씩씩하고 밝은 여고생으로 자라났다. 어려운 집안사정을 돕기 위해 상금이 걸린 오디션 프로그램에 출연한 자윤, 방송이 나간 직후부터 의문의 인물들이 그녀 앞에 나타난다. 자윤의 주변을 맴돌며 날카롭게 지켜보는 남자 귀공자, 그리고 과거 사고가 일어난 시점부터 사라진 아이를 찾던 닥터 백과 미스터 최까지 자신은 전혀 기억하지 못하는 그들의 등장으 로, 자윤은 혼란에 휩싸이게 되는데...",
+      "movie_open_date": "2018-06-27",
+      "movie_vote": "7.8",
+      "movie_poster_url": "/979reU4oeyHuqQn8D8zHrmUUq6P.jpg",
+      "movie_runtime": 125,
+      "movie_country": "KR",
+      "movie_director": "박훈정",
+      "movie_actor": "김다미, 조민수, 박희순, 최우식, 고민시, ",
+      "movie_genres": [
+        { "id": 28, "name": "액션" },
+        { "id": 9648, "name": "미스터리" },
+        { "id": 878, "name": "SF" }
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 22,
+    "field": {
+      "movie_id": 15859,
+      "movie_title": "내 머리 속의 지우개",
+      "movie_content": "수진은 유달리 건망증이 심하다. 편의점에 가면 산 물건과 지갑까지 놓고 나오기 일쑤다. 그 날도 어김없이 산 콜라와 지갑을 놓고 온 것을 깨닫고 다시 편의점에 들어선 순간 맞닥뜨린 남자. 그의 손엔 콜라가 들려있고, 콜라가 있어야 할 편의점 카운터는 비어있다. 덥수룩한 수염에 남루한 옷차림, 영락없는 부랑자다. 그가  자신의 콜라를 훔쳤다고 생각한 수진, 그의 손에 들린 콜라를 뺏어 단숨에 들이킨다. 게다가 트림까지. 보란 듯이 빈 캔을 돌려주고, 수진은 버스정류장으로 향한다. 하지만 버스에 탄 순간 또 지갑을 챙겨오지 않은 걸 깨닫는다. 다시 돌아간 편의점에서 직원은 수진을 보더니 지갑과 콜라를 내놓는다. 그제서야 자신의 실수를 깨닫는 수진. 그를 찾아보지만 이미 그는 없다.",
+      "movie_open_date": "2004-11-05",
+      "movie_vote": "7.8",
+      "movie_poster_url": "/jYnWHteL9i4OFMaKjujGV3D4F3g.jpg",
+      "movie_runtime": 117,
+      "movie_country": "KR",
+      "movie_director": "Shin Yeong-woon",
+      "movie_actor": "정우성, 손예진, Baek Jong-hak, 이선진, Park Sang-gyu, ",
+      "movie_genres": [
+        { "id": 18, "name": "드라마" },
+        { "id": 10749, "name": "로맨스" }
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 23,
+    "field": {
+      "movie_id": 113,
+      "movie_title": "봄 여름 가을 겨울 그리고 봄",
+      "movie_content": "만물이 생성하는 봄. 숲에서 잡은 개구리와 뱀, 물고기에게 돌을 매달아 괴롭히는 짓궂은 장난에 빠져 천진한 웃음을 터트리는 아이. 그 모습을 지켜보던 노승은 잠든 아이의 등에 돌을 묶어둔다. 잠에서 깬 아이가 울먹이며 힘들다고 하소연하자, 노승은 잘못을 되돌려놓지 못하면 평생의 업이 될 것이라 이른다. 아이가 자라 17세 소년이 되었을 때, 산사에 동갑내기 소녀가 요양하러 들어온다. 소년의 마음에 소녀를 향한 뜨거운 사랑이 차오르고, 노승도 그들의 사랑을 감지한다. 소녀가 떠난 후 더욱 깊어가는 사랑의 집착을 떨치지 못한 소년은 산사를 떠나고...",
+      "movie_open_date": "2003-09-19",
+      "movie_vote": "7.8",
+      "movie_poster_url": "/mZReLUhge4XCkxSafLOX0rOXOlh.jpg",
+      "movie_runtime": 103,
+      "movie_country": "KR",
+      "movie_director": "장철수",
+      "movie_actor": "오영수, 김기덕, 김영민, Seo Jae-kyeong, Kim Jong-ho, ",
+      "movie_genres": [{ "id": 18, "name": "드라마" }]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 24,
+    "field": {
+      "movie_id": 49797,
+      "movie_title": "악마를 보았다",
+      "movie_content": "국정원 경호요원 수현은 약혼녀 주연이 잔인하게 살해당하자  자신에게 가장 소중한 사람을 지켜내지 못했다는 ���괴감과 분노로 가장 고통스러운 복수를 다짐한다. 수현은 연쇄살인마 장경철이 범인임을 알아내고 죽을 만큼의 고통만 가하고 놓아주기를 반복하며 처절한 응징을 시작한다. 그러나, 악마보다 더 악랄한 살인마 장경철은 난생 처음 만난 대등한 적수의 출현을 즐기며 반격에 나서기 시작하는데…",
+      "movie_open_date": "2010-08-12",
+      "movie_vote": "7.8",
+      "movie_poster_url": "/xAhsrqrsMIO7YwKbLAlWatzFbgX.jpg",
+      "movie_runtime": 144,
+      "movie_country": "KR",
+      "movie_director": "Seok Min-u",
+      "movie_actor": "이병헌, 최민식, 전국환, 천호진, 오산하, ",
+      "movie_genres": [
+        { "id": 53, "name": "스 릴러" },
+        { "id": 27, "name": "공포" }
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 25,
+    "field": {
+      "movie_id": 1280,
+      "movie_title": "빈집",
+      "movie_content": "빈 집에 갇힌 여자와 빈 집을 여는 남자  태석은 오토바이를 타 고 집집을 돌며 열쇠구멍에 전단지를 붙인다. 그리고 오랫동안 전단지가 떨어져 나가지 않은 집을 열고 들어가 얼마간을 살고 나온다. 그렇게 살아가고 있던 태석은 어느 한 빈 집에서 멍 투성이의 한 여자를 만난다. 남편의 집착과 소유욕 때문에 피폐해지고 망가진 채로 유령처럼 살아가는 여자 선화. 하지만 태석은 그녀를 남겨둔 채 서둘러 집을 빠져 나온다.  그러나 자신을 데려가 주길 바라는 것 같던 선화의 공허한 눈빛을 떨쳐버 릴 수가 없던 태석은 다시 그녀의 빈 집으로 돌아간다. 그리고 그곳에서 태석은 남편의 강제적인 탐닉에 몸부림치며 괴로워하는 선화를 보고야 만다. 참을 수 없는 광경 앞에 태석은 그만 손에 잡힌 3번 아이언 골프채를 휘둘러 선화를 구해 도망친다.  태석이 그래왔던 것처럼 함께 전단지를 붙이고 빈집을 찾아 들며 지내는 두 사람. 새로 들르는 집마다 마치 늘 살아왔던 것처럼 어질러진 빈집을 치우고 망가진 물건들을 고쳐놓는 태석 을 보며 선화는 처음으로 자신이 비어있지 않은 집에 있는 것 같은 따스함을 느낀다. 태석 역시 조금씩 웃음을 찾아가는 선화를 보며 그녀에게 점점 끌리게 된다. 액체가 섞이듯 어느 사이엔가 서로의 아픔과 외로움을  느끼게 된 두 사람은 서로에 대한 사랑을 확인하게 된다.  그런 어느 날, 우연히 찾아 든 빈 집에서 싸늘히 버려진 노인의 시체를 발견하게 된 두 사람은 정성껏 장례를 치러주고 남겨진 빈 집에서 행복한 시간을 꿈꾼다. 그러나 노인의 아들이 들이닥치고 두 사람은 경찰에 연행된다. 선화의 신원을 파악한 경찰은 태석에게 납치와 살인, 무단 가택 침입이라는 혐의를 씌운다. 돈으로 형사와 깡패를 매수한 민규 앞에 처절히 무너지는 태 석과 반항도 못하고 집으로 끌려온 선화. 태석은 어떻게든 선화에게 돌아가려 하고 선화 역시 태석을 찾아 지난 날의 빈 집들을 찾아 나서는데…",
+      "movie_open_date": "2004-10-15",
+      "movie_vote": "7.8",
+      "movie_poster_url": "/oTuOzkKT3gkqvEbB6BrN8cv1gto.jpg",
+      "movie_runtime": 88,
+      "movie_country": "KR",
+      "movie_director": "김기덕",
+      "movie_actor": "이승연, 재희, Kwon Hyuk-ho, 주진모, Jeong-ho Choi, ",
+      "movie_genres": [
+        { "id": 18, "name": "드라마" },
+        { "id": 10749, "name": "로맨스" },
+        { "id": 80, "name": "범죄" }
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 26,
+    "field": {
+      "movie_id": 581528,
+      "movie_title": "악인전",
+      "movie_content": "중 부권을 쥐고 흔드는 제우스파 조직의 보스 장동수, 비 내리던 밤 한적한 도로에서 접촉사고를 위장해 접근한 남자에게 불의의 습격을 받는다. 격투 끝에 가까스로 목숨은 건졌지만 조직 보스의 권위와 자존심은 무너지고 만다. 바짝 독이 오른 장동수 앞에 형사 정태석이 나타나 그를 찌른 놈이 연쇄살인범이라며 그날 밤 기억나는 것을 모두 말하라고 한다. 장동수는 얼굴 없는 연쇄살인마와 마주쳐 살아남은 유일한 생존자이자 목격자였 다. 자신의 몸에 손 댄 그 놈을 살 떨리게 잡고 싶은 조직의 보스 장동수와 미치도록 범인을 잡고 싶은 강력반 미친개 정태석, 두 사람은 장동수의 조직력과 자본, 정태석의 정보력과 기술력을 이용해 \"K\"라 불리는 연쇄살인마를 함께 잡기로 하는데...",
+      "movie_open_date": "2019-05-15",
+      "movie_vote": "7.8",
+      "movie_poster_url": "/az4OVqXbFVaHoZlktcm7oCm0LZo.jpg",
+      "movie_runtime": 112,
+      "movie_country": "KR",
+      "movie_director": "Lee Won-tae",
+      "movie_actor": "마동석, 김무열, 김성규, 허동원, 유재명, ",
+      "movie_genres": [
+        { "id": 80, "name": "범죄" },
+        { "id": 28, "name": "액션" },
+        { "id": 53, "name": "스릴러" }
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 27,
+    "field": {
+      "movie_id": 396535,
+      "movie_title": "부산행",
+      "movie_content": "별거 중인 펀드 매니저 석우는 소원해진 딸 수안의 생일 소원을 들어주기 위해 아내가 있는 부산행 KTX에 오른다. 이내 열차 는 좀비의 침투와 감염으로 아수라장으로 변하고, 전국적 재난 뉴스를 차내에서 접한 승객들의 생존가능성은 유일하게 초기 대응에 성공한 도시 부산까지 살아남은 채 도착할 수 있느냐에 달리게 된다. 열차에 몸을 실은 석우와 딸 수안, 상화와 성경 커플, 고등학생 영국, 진희, 그리고 노숙자와 중년의 비즈니스맨 용석은 감염된 사람들의 공격을 피해 열차 안에서 사투를 벌인다.",
+      "movie_open_date": "2016-07-20",
+      "movie_vote": "7.8",
+      "movie_poster_url": "/nCrh5EQYiYXEIFNrfb4ISm7TOOo.jpg",
+      "movie_runtime": 118,
+      "movie_country": "KR",
+      "movie_director": "Min Hong-nam",
+      "movie_actor": "공유, 김수안, 정유미, 마동석, 최우식, ",
+      "movie_genres": [
+        { "id": 27, "name": "공포" },
+        { "id": 53, "name": "스릴러" },
+        { "id": 28, "name": "액션" }
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 28,
+    "field": {
+      "movie_id": 13855,
+      "movie_title": "추격자",
+      "movie_content": "출장안마소를 운영하는 전직 형사 중호. 최근 데리고 있던 여자들이 잇달아 사라지는 일이 발생하던 중 조금 전 나간 미진을 불러낸 손님의 전화 번호와 사라진 여자들이 마지막으로 통화한 번호가 일치함을 알아낸다. 연락이 두절된 미진을 찾아 헤매던 중 우연히 옷에 피가 묻은 영민과 마주치고, 추격 끝에 그를 붙잡는다. 실종된 여자들을 모두 죽였다는 충격적인 고백을 담담히 털어 놓는 영민에 의해 경찰서는 발칵 뒤집어진다. 공세우기에 혈안이 된 경찰은 미진의 생사보다는 증거를 찾기에만 급급해 하고, 미진이 살아 있다고 믿는 단 한 사람인 중호는 미진을 찾아 나서는데...",
+      "movie_open_date": "2008-02-14",
+      "movie_vote": "7.8",
+      "movie_poster_url": "/4bWVILPrb7gaqwA2j6xIcg4Ak3D.jpg",
+      "movie_runtime": 123,
+      "movie_country": "KR",
+      "movie_director": "나홍진",
+      "movie_actor": "김윤석, 하정우, 서영희, 김유정, 정인기, ",
+      "movie_genres": [
+        { "id": 80, "name": "범죄" },
+        { "id": 53, "name": "스릴러" },
+        { "id": 28, "name": "액션" }
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 29,
+    "field": {
+      "movie_id": 938008,
+      "movie_title": "더 킬러: 죽어도 되는 아이",
+      "movie_content": "은퇴 후 성공적인 재테크로 호화롭게 생활하는 전설의 킬러 ‘의강’이  제멋대로 행동하는 여고생 ‘윤지’를 떠맡게 된다.  단기간 보호자 역할만 하면 될 거라고 가볍게 여긴 순간  ‘윤지’가 납치되는 사건이 일어나는데…  “걔는 다치면 안 되는 아이야”  애써 잠재운 ‘의강’의 본능이 깨어난다!",
+      "movie_open_date": "2022-07-13",
+      "movie_vote": "7.7",
+      "movie_poster_url": "/qPXGKOEQ1NSrmH6s7qFFF3qC9O6.jpg",
+      "movie_runtime": 95,
+      "movie_country": "KR",
+      "movie_director": "Choi Jae-hoon",
+      "movie_actor": "장혁, Lee Seo-young, 브루스 칸, 방은정, 이승준, ",
+      "movie_genres": [
+        { "id": 28, "name": "액션" },
+        { "id": 80, "name": "범죄" },
+        { "id": 53, "name": "스릴러" }
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 30,
+    "field": {
+      "movie_id": 30018,
+      "movie_title": "마더",
+      "movie_content": "읍내 약재상에서 일하며 아들과 단 둘이 사는 엄마. 그녀에게 아들 도준은 온 세상과 마찬가지다. 28세의 나이답지 않게 제 앞가림을 못 하는 어수룩한 아들  도준은 자잘한 사고를 치고 다니며 엄마의 애간장을 태운다. 어느 날, 한 소녀가 살해 당하고 어처구니없이 도준이 범인으로 몰린다. 아들을 구하기 위해 백방으로 뛰는 엄마. 하지만 경찰은 서둘러 사건을 종결 짓고 무능한 변호사는 돈만 밝힌다. 결국 아들을 구하기 위해 믿을 사람 하나 없이 범인을 찾아나선 엄마. 도준의 혐의가 굳어져 갈수록 엄마 또한 절박해져만 간다.",
+      "movie_open_date": "2009-05-28",
+      "movie_vote": "7.7",
+      "movie_poster_url": "/lhxVHEkaOH51oazowpdCHJNLIBE.jpg",
+      "movie_runtime": 128,
+      "movie_country": "KR",
+      "movie_director": "Park Hyun-cheol",
+      "movie_actor": "김혜자, 원빈, 진구, 윤제문, 전미선, ",
+      "movie_genres": [
+        { "id": 80, "name": "범죄" },
+        { "id": 18, "name": "드라마" },
+        { "id": 9648, "name": "미스터리" }
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 31,
+    "field": {
+      "movie_id": 479718,
+      "movie_title": "범죄도시",
+      "movie_content": "2004년 서울. 중국 하얼빈에서 활동하다 피신한 신흥 범죄조직의 악랄한 보스 장첸. 가리봉동 일대로 넘어온 장첸과 그의 일당들은 단숨에 기존 조직들을 장악하고 가장 강력한 세력인 춘식이파 보스 황사장까지 위협하며 도시 일대의 최강자로 급부상한다. 한편 대한민국을 뒤흔든 장첸 일당을 잡기 위해 오직 주먹 한방으로 도시의 평화를 유지해 온 괴물형사 마석도와  인간미 넘치는 든든한 리더 전일만 반장이 이끄는 강력반은 눈에는 눈 방식의  소탕 작전을 기획하는데...",
+      "movie_open_date": "2017-10-03",
+      "movie_vote": "7.7",
+      "movie_poster_url": "/ayk6y2D5v5VACFqrPfF05MARZ9n.jpg",
+      "movie_runtime": 121,
+      "movie_country": "KR",
+      "movie_director": "이상용",
+      "movie_actor": "마동석, 윤계상, 조재윤, 최귀화, 임형준, ",
+      "movie_genres": [
+        { "id": 28, "name": "액션" },
+        { "id": 80, "name": "범죄" },
+        { "id": 53, "name": "스릴러" }
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 32,
+    "field": {
+      "movie_id": 51608,
+      "movie_title": "아저씨",
+      "movie_content": "불행한 사건으로 아내를 잃고 세상을 등진 채 전당포를 꾸려가며 외롭게 살아가는 전직 특수요원 태식. 찾아오는 사람이라곤 전당포에 물건을 맡기러 오는 사람들과 옆집소녀 소미뿐이다. 세상으로부터 버림받은 소미와 함께 보내는 시간이 많아지면서 태식과 소미는 서로 마음을 열며 친구가 되어간다.  그러던 어느 날 소미의 엄마가 범죄단체 연루되고 태식의 눈앞에서 소미가 납치되는데...",
+      "movie_open_date": "2010-08-04",
+      "movie_vote": "7.7",
+      "movie_poster_url": "/xmD04pnMIO0FUe0FJc8rHjfi6vY.jpg",
+      "movie_runtime": 119,
+      "movie_country": "KR",
+      "movie_director": "이정범",
+      "movie_actor": "원빈, 김새론, 김태훈, 김희원, 김성오, ",
+      "movie_genres": [
+        { "id": 28, "name": "액션" },
+        { "id": 53, "name": "스릴러" },
+        { "id": 80, "name": "범죄" }
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 33,
+    "field": {
+      "movie_id": 435366,
+      "movie_title": "조작된 도시",
+      "movie_content": "게임 세계 속에서는 완벽한 리더지만 현실에서는 평범한 백수인 권유.  PC방에서 우연히 휴대폰을 찾아 달라는 낯선 여자의 전화를 받게 되고 이후, 영문도 모른 채 그녀를 잔인하게 살해한 범인으로 몰리게 된다. 모든 증거는 짜맞 춘 듯 권유를 범인이라 가리키고,  아무도 그의 결백을 믿어주지 않는 가운데 권유의 게임 멤버이자 초보 해커인 여울은 이 모든 것이 단 3분 16초 동안, 누군가에 의해 완벽하게 조작되었음을 알게 된다. 특수효과 전문 데몰리션을 비롯 게임 멤버가 모두 모여 자신들만의 새로운 방식으로 사건의 실체를 추적해나가기 시작하고, 조작된 세상에 맞서기 위한 짜릿한 반격에 나서는데...",
+      "movie_open_date": "2017-02-09",
+      "movie_vote": "7.7",
+      "movie_poster_url": "/v2TRu7tQ8LKHOwfusckYjHvXiya.jpg",
+      "movie_runtime": 126,
+      "movie_country": "KR",
+      "movie_director": "Kim Jun-su",
+      "movie_actor": "지창욱, 심은경, 오정세, 안재홍, 김상호, ",
+      "movie_genres": [
+        { "id": 28, "name": "액션" },
+        { "id": 53, "name": "스릴러" },
+        { "id": 80, "name": "범죄" }
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 34,
+    "field": {
+      "movie_id": 838209,
+      "movie_title": "파묘",
+      "movie_content": "미국 LA, 거액의 의뢰를 받은 무당 화림과 봉길은 기이한 병이 대물림되는 집안의 장손을 만난다. 조상의 묫자리가 화근임을 알아챈 화림은 이장을 권하고, 돈 냄새를 맡은 최고의 풍수사 상덕과 장의사 영근이 합류한다. 절대 사람이 묻힐 수 없는 악지에 자리한 기이한 묘. 상덕은 불길한 기운을 느끼고 제안을 거절하지만, 화림의 설득으로 결국 파묘가 시작되고… 나와서는 안될 것이 나왔다.",
+      "movie_open_date": "2024-02-22",
+      "movie_vote": "7.6",
+      "movie_poster_url": "/tw0i3kkmOTjDjGFZTLHKhoeXVvA.jpg",
+      "movie_runtime": 133,
+      "movie_country": "KR",
+      "movie_director": "Kim Jung-woo",
+      "movie_actor": "최민식, 김고은, 유해진, 이도현,  김재철, ",
+      "movie_genres": [
+        { "id": 9648, "name": "미스터리" },
+        { "id": 27, "name": "공포" },
+        { "id": 53, "name": "스릴러" }
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 35,
+    "field": {
+      "movie_id": 47909,
+      "movie_title": "시",
+      "movie_content": "한강을 끼고 있는 경기도의 어느 작은 도시, 낡은 서민 아파트에서 중학교에 다니는 손자와 함께 살아가는 미자. 그녀는 꽃 장식 모자부터 화사한 의상까지 치장하는 것을 좋아하고 호기심도 많 은 엉뚱한 캐릭터다  미자는 어느 날 동네 문화원에서 우연히 시 강좌를 수강하게 되며 난생 처음으로 시를 쓰게 된다. 시상을 찾기 위해 그 동안 무심히 지나쳤던 일상을 주시하며 아름다움을 찾으려 하는 미자. 지금까지 봐왔던 모든 것들이 마치 처음 보는 것 같아 소녀처럼 설렌다. 그러나, 그녀에게 예기치 못한 사건이 찾아오면서 세상이 자신의 생각처럼 아름답지만은 않다는 것을 알게 되는데…",
+      "movie_open_date": "2010-05-13",
+      "movie_vote": "7.6",
+      "movie_poster_url": "/5eEblZp1OsFSZVTBNG3yFhkQHlw.jpg",
+      "movie_runtime": 139,
+      "movie_country": "KR",
+      "movie_director": "박정범",
+      "movie_actor": "윤정희, 이다윗, 김희라, 안내상, Kim Yong-taek, ",
+      "movie_genres": [{ "id": 18, "name": "드라마" }]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 36,
+    "field": {
+      "movie_id": 429450,
+      "movie_title": "판도라",
+      "movie_content": "역대 최대 규모의 강진에 이어 원 자력 폭발 사고까지  예고 없이 찾아온 초유의 재난 앞에 한반도는 일대 혼란에 휩싸이고  믿고 있던 컨트롤 타워마저 사정없이 흔들린다.  방사능 유출의 공포는 점차 극에 달하고  최악의 사태를 유발할 2차 폭발의 위험을 막기 위해  발전소 직원인 ‘재혁’과 그의 동료들은  목숨 건 사투를 시작하는데…",
+      "movie_open_date": "2016-12-07",
+      "movie_vote": "7.5",
+      "movie_poster_url": "/a1OakqMoPYvSCBFPc6F8nhI2qu.jpg",
+      "movie_runtime": 136,
+      "movie_country": "KR",
+      "movie_director": "한진원",
+      "movie_actor": "김남길, 김주현, 김명민, 이경영, 김영애, ",
+      "movie_genres": [
+        { "id": 53, "name": "스릴러" },
+        { "id": 18, "name": "드라마" },
+        { "id": 28, "name": "액션" }
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 37,
+    "field": {
+      "movie_id": 4550,
+      "movie_title": "친절한 금자씨",
+      "movie_content": "사람들의 시선을 단번에 사로잡을 만큼 뛰어난 미모의 소유자인 금자는 20살에 죄를 짓고 감옥에 가게 된다. 어린 나이, 너무나 아름다운 외모로 인해 검거되는 순간에도 언론에 유명세를 치른다. 누구보다 성실하고 모범적인 수감생활을 보내는 금자. 친절한 금자씨라는 말도 교도소에서마 저 유명세를 떨치던 그녀에게 사람들이 붙여준 별명이다. 13년간의 복역을 무사히 마치고 출소하는 순간, 금자는 그 동안 치밀하게 준비해온 복수를 시작한다. 그녀가 복수하려는 인물은 자신을 죄인으로 만든 백선생.  그녀가 친절을 베풀며 도왔던 동료들은 이제 다양한 방법으로 금자의 복수를 돕는다.",
+      "movie_open_date": "2005-07-29",
+      "movie_vote": "7.5",
+      "movie_poster_url": "/1TCQnCIIiTXROsCPKwYvnqll8Ta.jpg",
+      "movie_runtime": 112,
+      "movie_country": "KR",
+      "movie_director": "이경미",
+      "movie_actor": "이영애, 최민식, Kwon Yea-young, 김시후, 남일우, ",
+      "movie_genres": [
+        { "id": 18, "name": "드라마" },
+        { "id": 53, "name": "스릴러" }
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 38,
+    "field": {
+      "movie_id": 575604,
+      "movie_title": "콜",
+      "movie_content": "오랜만에 집으로 돌아온 서연. 집에 있던 낡은 전화기를 연결했다가 영숙이란 이름의 낯선 여자와 전 화를 하게 된다. 서연은 영숙이 20년 전, 같은 집에 살았던 사람이란 사실을 깨닫고 그때부터 두 사람은 우정을 쌓아간다. 그러던 어느 날, 서연과 영숙은 각자의 현재에서 서로의 인생을 바꿀 사소한 선택을 하게 된다. 영숙은 20년 전 죽은 서연의 아빠를 살려주고, 서연은 그 대가로 영숙의 20년 후 미래를 알려준 것. 그러나 자신의 끔찍한 미래를 알게 된 영숙이 예상치 못한 폭주를 하면서 서연을 위협하기 시작하는데…",
+      "movie_open_date": "2020-11-27",
+      "movie_vote": "7.5",
+      "movie_poster_url": "/HKr6HSGZyZBcI38rR1NjwsIcc0.jpg",
+      "movie_runtime": 114,
+      "movie_country": "KR",
+      "movie_director": "이충현",
+      "movie_actor": "박신혜, 전종서, 김성령, 이엘, 박호산, ",
+      "movie_genres": [
+        { "id": 53, "name": "스릴러" },
+        { "id": 9648, "name": "미스터리" },
+        { "id": 878, "name": "SF" }
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 39,
+    "field": {
+      "movie_id": 200085,
+      "movie_title": "감기",
+      "movie_content": "밀입국 노동자들을 분당으로 실어 나른 남자가 원인불명의 바이러스에 감염되어 사망한다. 환자가 사망한지 채 24시간이 되지 않아 분당의 모든 병원에서 동일한 환자들이 속출 한다. 사망자들은 기하급수적으로 늘어나지만 분당의 시민들은 무방비상태로 바이러스에 노출된다. 감염의 공포가 대한민국을 엄습하고, 호흡기를 통해 초당 3.4명 감염, 36시간 내 사망에 이르는 사상 최악의 바이러스 에 정부는 2차 확산을 방지하기 위해 국가 재난사태를 발령, 급기야 도시 폐쇄라는 초유의 결정을 내린다. 피할 새도 없이 격리된 사람들은 일대혼란에 휩싸이게 되고, 대재난 속 사랑하는 이들을 구하기 위한 사람들과 죽음에서 살아 남기 위한 사람들은 목숨을 건 사투를 시작하는데…",
+      "movie_open_date": "2013-08-14",
+      "movie_vote": "7.5",
+      "movie_poster_url": "/7fQlPXebfjEqjysW3rv4RyNplih.jpg",
+      "movie_runtime": 121,
+      "movie_country": "KR",
+      "movie_director": "Kim Min-beom",
+      "movie_actor": "장혁, 수애, Park Min-ha, 유해진, 마동석, ",
+      "movie_genres": [
+        { "id": 28, "name": "액션" },
+        { "id": 878, "name": "SF" },
+        { "id": 53, "name": "스 릴러" }
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 40,
+    "field": {
+      "movie_id": 204553,
+      "movie_title": "감시자들",
+      "movie_content": "범죄 대상에 대한 감시만을 전문적으로 담당하는 경찰 내 특수조직 감시반. 동물적인 직감과 본능으로 범죄를 쫓는 감시 전문가 황반장이 이끄는 감시반에 탁월한 기억력과 관찰력을 지닌 신참 하윤주가 합류한다. 그리고 얼마 후 감시반의 철저한 포위망마저 무용지물로 만든 범죄가 벌어진다. 단 3분만에  한 치의 실수도 없이 벌어진 무장강도사건. 얼굴도, 단서도 남기지 않은 그들의 존재에 모든 시선이 꽂힌다. 철저하게 짜여진 계획 하에 움직이며 1초의 오차도 용납하지 않는 범죄 조직의 리더 제임스. 자신의 존재를  절대 드러내지 않는 그는 감시반의 추적이 조여올수록 더욱 치밀하게 범죄를 이어간다. 더 이상의 범죄를 막기 위해 반드시 놈의 실체를 알아내야만 하는 감시반. 황반장과 하윤주는 모든 기억과 단서를 동원해 놈을 쫓 기 시작하는데…",
+      "movie_open_date": "2013-07-03",
+      "movie_vote": "7.5",
+      "movie_poster_url": "/2iZbCv0XJGaPwZTTF7atEosAxRR.jpg",
+      "movie_runtime": 119,
+      "movie_country": "KR",
+      "movie_director": "Lee Beom-seok",
+      "movie_actor": "정우성, 설경구, 한효주, 진경, 이준호, ",
+      "movie_genres": [
+        { "id": 80, "name": "범죄" },
+        { "id": 28, "name": "액션" },
+        { "id": 53, "name": "스릴러" }
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 41,
+    "field": {
+      "movie_id": 11178,
+      "movie_title": "엽기적인 그녀",
+      "movie_content": "어느 밤, 전철에서 술에 취한 그녀를 지켜보던 견우. 그런데 그녀가 옆에 있던 아저씨의 머리에 구토를 해 전철은 아수라장이 되고, 급 기야 그녀는 견우를 전 남자친구로 착각하는데...",
+      "movie_open_date": "2001-07-27",
+      "movie_vote": "7.5",
+      "movie_poster_url": "/h7xTfZbrJ86nzypPvPjwVmxZoHS.jpg",
+      "movie_runtime": 137,
+      "movie_country": "KR",
+      "movie_director": "Raven Seol Chi-Guk",
+      "movie_actor": "전지현, 차태현, 김인문, 송옥숙, 한진희, ",
+      "movie_genres": [
+        { "id": 18, "name": "드라마" },
+        { "id": 35, "name": "코미디" },
+        { "id": 10749, "name": "로맨 스" }
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 42,
+    "field": {
+      "movie_id": 626872,
+      "movie_title": "비상선언",
+      "movie_content": "베테랑 형사 팀장 인호는 비행기 테러 예고 영상 제보를 받고 사건을 수사하던 중 용의자 가 실제로 KI501 항공편에 타고 있음을 파악한다.딸의 치료를 위해 비행 공포증임에도 불구하고 하와이로 떠나기로 한 재혁은 주변을 맴돌며 위협적인 말을 하는 낯선 이가 신경 쓰인다.인천에서 하와이로 이륙한 KI501 항공편에서 원인불명의 사망자가 나오고, 비행기 안은 물론 지상까지 혼란과 두려움의 현장으로 뒤바뀐다.이 소식을 들은 국토부 장관 숙희는 대테러센터를 구성하고 비행기를 착륙시킬 방법을 찾기 위해 긴급회의를 소 집하는데…",
+      "movie_open_date": "2022-08-03",
+      "movie_vote": "7.5",
+      "movie_poster_url": "/uqd0w7sevlyBgcIAX1qg8LjsHFM.jpg",
+      "movie_runtime": 140,
+      "movie_country": "KR",
+      "movie_director": "한재림",
+      "movie_actor": "송강호, 이병헌, 전도연, 김남길, 임시완, ",
+      "movie_genres": [
+        { "id": 28, "name": "액션" },
+        { "id": 18, "name": "드라마" },
+        { "id": 53, "name": "스릴러" }
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 43,
+    "field": {
+      "movie_id": 11344,
+      "movie_title": "달콤한 인생",
+      "movie_content": "서울 하늘 한 켠, 섬처럼 떠 있는 한 호텔의 스카이라운지. 그 곳은 냉철하고 명민한 완벽주의자 선우의 작은 성이다. 왜라고 묻지 않는 과묵한 의리, 빈틈 없는 일 처리로 보스 강사장의 절대적 신뢰를 획득, 스카이라운지의 경영을 책임지기까지, 그는 꼬박 7년의 세월을 바쳤다. 룰을 어긴 자는 이유를 막론하고 처단하는 냉혹한 보스 강사장. 그런 그에게는 남들 에게 말 못 할 비밀이 하나 있다. 젊은 애인 희수의 존재가 바로 그것. 그녀에게 딴 남자가 생긴 것 같다는 의혹을 가진 강사장은 선우에게 그녀를 감시, 사실이면 처리하라고 명령하는데...",
+      "movie_open_date": "2005-04-01",
+      "movie_vote": "7.5",
+      "movie_poster_url": "/1BAw7TCTHB7wYTUk6L9UG9snPoe.jpg",
+      "movie_runtime": 120,
+      "movie_country": "KR",
+      "movie_director": "Lee So-yeong",
+      "movie_actor": "이병헌, 김영철, 신민아, 김뢰하, 황정민, ",
+      "movie_genres": [
+        { "id": 28, "name": "액션" },
+        { "id": 18, "name": "드라마" },
+        { "id": 80, "name": "범죄" }
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 44,
+    "field": {
+      "movie_id": 4689,
+      "movie_title": "복수는 나의 것",
+      "movie_content": "선천성 청각 장애인 류에게 누나는 유일한 가족이다. 신부전증을 앓고 있는 누나는 병이 악화되어 신장을 이식하지 않으면 얼마 살 수 없다는 진단을 받는다. 누나와 혈액형이 달 라 이식 수술이 좌절된 류는 장기밀매단과 접촉해 자신의 신장과 전재산 천 만원을 넘겨주고 누나를 위한 신장을 받기로 하지만 모든 것이 사기로 드러난다. 누나에게 맞는 신장을 찾기 위해 돈이 필요한 류는 애인이자 운동권 학생인 영미의 말에 아이를 유괴한다. 착한 유괴라고 류를 설득해 동진의 딸을 유괴하지만 이 사실을 알게 된 류의 누이는 스스로 목숨을 끊고 우연한 사건으로 아이마저 죽게 되는데...",
+      "movie_open_date": "2002-03-29",
+      "movie_vote": "7.5",
+      "movie_poster_url": "/zrz5mJuXIhYGHBQndduUoT2JHvm.jpg",
+      "movie_runtime": 120,
+      "movie_country": "KR",
+      "movie_director": "Lee So-yeong",
+      "movie_actor": "송강호, 신하균, 배두나, 임지은, 한보배, ",
+      "movie_genres": [
+        { "id": 28, "name": "액션" },
+        { "id": 18, "name": "드라마" },
+        { "id": 53, "name": "스릴러" }
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 45,
+    "field": {
+      "movie_id": 432836,
+      "movie_title": "살인자의 기억법",
+      "movie_content": "예전에는 연쇄살인범이었지만 지금은 알츠하이머에 걸린 병수. 우연히 접촉사고로 만나게 된 남자 태주에게서 자신과 같은 눈빛을 발견하고 그 역시 살인자임을 직감한다. 병수는 경찰에 그를 연쇄살인범으로 신고하지만 태주가 그 경찰이었고, 아무도 병수의 말을 믿지 않는다. 태주는 은희 곁을 맴돌며 계속 병수의 주변을 떠나지 않고, 병수는 혼자 태주를 잡기 위해 필사적으로 기록하고 쫓지만 기억은 자꾸 끊기고, 오히려 살인 습관들이 되살아나며 병수는 망상과 실제 사이에서 혼란스러워진다.  다시 시작된 연쇄 살인사건, 놈의 짓이 맞을까!",
+      "movie_open_date": "2017-09-07",
+      "movie_vote": "7.4",
+      "movie_poster_url": "/wZsBxVlonVjztIBVbquw6uDgYHW.jpg",
+      "movie_runtime": 118,
+      "movie_country": "KR",
+      "movie_director": "Lee Seung-Won",
+      "movie_actor": "설경구, 김남길, 김설현, 오달수, 황석정, ",
+      "movie_genres": [
+        { "id": 80, "name": "범죄" },
+        { "id": 9648, "name": "미스터리" },
+        { "id": 53, "name": "스릴러" }
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 46,
+    "field": {
+      "movie_id": 165213,
+      "movie_title": "신세계",
+      "movie_content": "경찰청 수사기획과 강과장은 국내 최대 범죄 조직 골드문이 기업형 조직으로 세력이 확장되자 신입경찰 이자성에게 잠입수사를 명한다. 그리고 8년, 자성은 골드문의 2인자 정청의 오른팔이 되기에 이른다. 골드문 회장이 갑자기 사망하자, 강과장은 후계자 결정에 직접 개입하는 신세계 작전을 설계한다. 후계자 전쟁의 한 가운데, 정청은 지금까지 친형제처럼 함께 해 온 자성에게 강한 신뢰를 보는 반면 작전의 성공만 생각하는 강과장은 자성의 목을 조여만 간다. 신분이 노출될 위기에 처한 자성은 언제 자신을 배신할지 모르는 경찰과, 형제의 의리로 대하는 정청 사이에서 갈등하게 되는데...",
+      "movie_open_date": "2013-02-21",
+      "movie_vote": "7.4",
+      "movie_poster_url": "/yiDQaLGF6hXVdiKodfdurUcgxWV.jpg",
+      "movie_runtime": 134,
+      "movie_country": "KR",
+      "movie_director": "Han Dong-wook",
+      "movie_actor": "이정재, 최민식, 황정민, 박성웅, 송지효, ",
+      "movie_genres": [
+        { "id": 53, "name": "스릴러" },
+        { "id": 80, "name": "범죄" },
+        { "id": 18, "name": "드라마" }
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 47,
+    "field": {
+      "movie_id": 491584,
+      "movie_title": "버닝",
+      "movie_content": "유통회사 알바생 종수는 배달을 갔다가 어릴 적 같은 동네에서 살았던 친구 해미를 만난다. 종수는 해미에게서 아프리카 여행을 간 동안 자기가 키우는 고양이를 돌봐 달라는 부탁을 받는다. 여행에서 돌 아온 해미는 아프리카에서 만난 벤이라는 정체불명의 남자를 종수에게 소개한다. 어느 날 벤은 해미와 함께 종수의 집으로 찾아와 자신의 비밀스러운 취미에 대해 고백한다. 그때부터 종수는 무서운 예감에 사로잡히게  되는데...",
+      "movie_open_date": "2018-05-17",
+      "movie_vote": "7.4",
+      "movie_poster_url": "/iLlEsH0c8ubTIzzEyNZ75f45Axn.jpg",
+      "movie_runtime": 148,
+      "movie_country": "KR",
+      "movie_director": "이창동",
+      "movie_actor": "유아인, 스티븐 연, 전종서, 김수경, 최승호, ",
+      "movie_genres": [
+        { "id": 9648, "name": "미스터리" },
+        { "id": 18, "name": "드라마" },
+        { "id": 53, "name": "스릴러" }
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 48,
+    "field": {
+      "movie_id": 705996,
+      "movie_title": "헤어질 결심",
+      "movie_content": "산 정상에서 추락한 한 남자의 변사 사건. 담당 형사 해준은 사망자의 아내 서래와 마주하게 된다. 남편의 죽음 앞에서 특별한 동요를  보이지 않는 서래. 경찰은 보통의 유가족과는 다른 서래를 용의선상에 올린다. 해준은 사건 당일의 알리바이 탐문과 신문, 잠복수사를 통해 서래를 알아가면서 그녀에 대한 관심이 점점 커져가는 것을 느낀다. 한편 좀처럼 속을 짐작하기 어려운 서래는 상대가 자신을 의심한다는 것을 알면서도 조금의 망설임도 없이 해준을 대하는데...",
+      "movie_open_date": "2022-06-29",
+      "movie_vote": "7.4",
+      "movie_poster_url": "/rXEJ28XDQsogIGqwVEgwM2oDdpl.jpg",
+      "movie_runtime": 138,
+      "movie_country": "KR",
+      "movie_director": "박찬욱",
+      "movie_actor": "탕웨이, 박해일, 이정현, 고경표, 박용우, ",
+      "movie_genres": [
+        { "id": 53, "name": "스릴러" },
+        { "id": 9648, "name": "미스터리" },
+        { "id": 10749, "name": "로맨스" }
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 49,
+    "field": {
+      "movie_id": 293670,
+      "movie_title": "곡성",
+      "movie_content": "낯선 외지인이 나타난 후 벌어지는  의문의 연쇄 사건들로 마을이 발칵 뒤집힌다. 경찰은 집단 야생 버섯 중독으로 잠정적 결론을 내리지만  모든 사건의 원인이 그 외지인 때문이라는 소문과 의심이 걷잡을 수 없이 퍼져 나간다. 경찰 종구는 현장을 목격 했다는 여인 무명을 만나면서  외지인에 대한 소문을 확신하기 시작한다. 딸 효진이 피해자들과 비슷한 증상으로 아파오기 시작하자 다급해진 종구. 외지인을 찾아 난동을 부리고, 무속인 일광을 불러들이는데...",
+      "movie_open_date": "2016-05-12",
+      "movie_vote": "7.3",
+      "movie_poster_url": "/k9AKtgRErXjz14lFHL2IJVCgwOT.jpg",
+      "movie_runtime": 156,
+      "movie_country": "KR",
+      "movie_director": "나홍진",
+      "movie_actor": "곽도원,  황정민, 천우희, 쿠니무라 준, 김환희, ",
+      "movie_genres": [
+        { "id": 27, "name": "공포" },
+        { "id": 9648, "name": "미스터리" }
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 50,
+    "field": {
+      "movie_id": 740441,
+      "movie_title": "스마트폰을 떨어뜨렸을 뿐인데",
+      "movie_content": "회사원 나미는 퇴근길, 자신의 분신과도 같은 스마트폰을 잃어버린다. 스마트폰을 주운 준영은 나미의 폰에 스파이웨어를 설치한 뒤 돌려준다. 나미의 스마트폰으로  취미, 취향, 직업, 동선, 경제력, 인간관계 등 나미의 모든 것을 알아낸 준영은 정체를 숨긴 채, 나미에게 접근한다. 한편, 살인 사건을 쫓는 형사 지만은 사건 현장에서 아들 준영의 흔적을 발견하고, 그가 범인일지도 모른다는 불길한 직감으로 준영을 몰래 조사하기 시작한다. 스마트폰을 찾았다는 기쁨도 잠시, 그날 이후 나미의 평범했던 일상은 점점 파국으로 치닫는데…",
+      "movie_open_date": "2023-02-17",
+      "movie_vote": "7.3",
+      "movie_poster_url": "/kVwudGk77ilXN4TwJn0B3pZtS6N.jpg",
+      "movie_runtime": 117,
+      "movie_country": "KR",
+      "movie_director": "Kim Tae-joon",
+      "movie_actor": "천우희, 임시완, 김희원, 박호산, 김예원, ",
+      "movie_genres": [{ "id": 53, "name": "스릴러" }]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 51,
+    "field": {
+      "movie_id": 57361,
+      "movie_title": "황해",
+      "movie_content": "연변에서 택시를 모는 구남은 빚더미에 쌓여 구질구질한 일상을 살아간다. 한국으로 돈 벌러 간 아내는 6개월째 소식이 없고, 돈을 불리기 위해 마작판에 드나들지만 항상 잃을 뿐이다. 어느 날 살인청부업자 면가에게서 한국 가서 사람 한 명 죽이고 오라는 제안을 받는다. 절박한 현실에서 선택의 여지가 없는 구남은 빚을 갚기 위해, 그리고 아내를 만나기 위해 황해를 건넌다. 매서운 바다를 건너 서울로 온 구남은 틈틈이 살인의 기회를 노리면서 동시에 아내의 행방을 수소문하지만, 자신의 눈 앞 에서 목표물이 살해 당하는 것을 목격한 구남은 누명을 쓴 채 경찰의 추적을 피해 도망 친다.",
+      "movie_open_date": "2010-12-22",
+      "movie_vote": "7.3",
+      "movie_poster_url": "/rnwwIy4hBvYaZIbS3AYGZoS6wyP.jpg",
+      "movie_runtime": 141,
+      "movie_country": "KR",
+      "movie_director": "나홍진",
+      "movie_actor": "하정우, 김윤석, 조성하, 이���민, 곽도원, ",
+      "movie_genres": [
+        { "id": 18, "name": "드라마" },
+        { "id": 53, "name": "스릴러" },
+        { "id": 80, "name": "범죄" }
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 52,
+    "field": {
+      "movie_id": 390497,
+      "movie_title": "터널",
+      "movie_content": "자동차 영업 대리점의 과장 정수,  큰 계약 건을 앞두고 들뜬 기분으로 집으로 가던 중  갑자기 무너져 내린 터널 안에 홀로 갇히고 만다. 그가 가진 것은 78% 남은 배터리의 휴대폰과 생수 두 병, 그리고 딸의 생일 케이크가 전부다. 대형 터널 붕괴 사고 소식에 정부는 긴급하게 사고 대책반을 꾸린다. 구조 대장 대경은 꽉 막혀버린 터널에 진입하기 위해  여러 가지 시도를 해보지만 구조는 더디게만 진행된다. 한편, 정수의 아내 세현은 정수가 유일하게 들을 수 있는 라디오를 통해  남편에게 희망을  전하며 그의 무사 생환에 대한 희망을 버리지 않는다.",
+      "movie_open_date": "2016-08-10",
+      "movie_vote": "7.3",
+      "movie_poster_url": "/3NdzKTigenok3nTZcSZjUw7WhVa.jpg",
+      "movie_runtime": 126,
+      "movie_country": "KR",
+      "movie_director": "김성훈",
+      "movie_actor": "하정우, 배두나, 오달수, 신정근, 남지현, ",
+      "movie_genres": [
+        { "id": 53, "name": "스릴러" },
+        { "id": 18, "name": "드라마" }
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 53,
+    "field": {
+      "movie_id": 508642,
+      "movie_title": "곤지암",
+      "movie_content": "1979년 환자 42명의 집단 자살과 병원장의 실종 이후, 섬뜩한 괴담으로 둘러싸인 곤지암 정신병원으로 공포체험을 떠난 7명의 멤버들. 원장실, 집단 치료실, 실험실, 열리지 않는 402호. 괴담의 실체를 담아내기 위해 병원 내부를 촬영하기 시작하던 멤버들에게 상상도 못한 기이하고 공포스러운 일들이 실제로 벌어지기 시작 하는데…",
+      "movie_open_date": "2018-03-28",
+      "movie_vote": "7.3",
+      "movie_poster_url": "/sCLqWiJxp2rq2wuvuv8N2KvaNhB.jpg",
+      "movie_runtime": 94,
+      "movie_country": "KR",
+      "movie_director": "Jung Bum-shik",
+      "movie_actor": "위하준, 박지현, Oh Ah-yeon, 문예원, 박성훈, ",
+      "movie_genres": [
+        { "id": 27, "name": "공포" },
+        { "id": 9648, "name": "미스터리" }
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 54,
+    "field": {
+      "movie_id": 614696,
+      "movie_title": "#살아있다",
+      "movie_content": "원인불명 증세의 사람들의 공격에 통제불능에 빠진 도시. 영문도 모른 채 잠에서 깬 준우는 아무도 없는 집에 혼자 고립된 것을 알게 된다. 데이터, 와이파이, 문자, 전화 모든 것이 끊긴 채 고립된 상황. 연락이 두절된 가족에 이어 최소한의 식량마저 바닥이 나자 더 이상 버티기 힘들어진 준우. 하지만 그 순간 건너편 아파트에서 누군가 시그널을 보내온다. 또 다른 생존자 유빈이 아직 살아있음을 알게 된 준우는 함께 살아남기 위한 방법을 찾아 나서는데...",
+      "movie_open_date": "2020-06-24",
+      "movie_vote": "7.2",
+      "movie_poster_url": "/zb06eXz3Pg5JzytPnMFb3cIDV7B.jpg",
+      "movie_runtime": 98,
+      "movie_country": "KR",
+      "movie_director": "Lee Yang-jun",
+      "movie_actor": "유아인, 박신혜, 이현욱, Jin So-yeon, Kim Hak-seon, ",
+      "movie_genres": [
+        { "id": 28, "name": "액션" },
+        { "id": 27, "name": "공포" }
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 55,
+    "field": {
+      "movie_id": 619803,
+      "movie_title": "범죄도시 2",
+      "movie_content": "가리봉동 소탕작전으로부터 4년이 지난 2008년, 금천경찰서 강력반은 베트남으로 도주한 용의자를 인도받아 오라는 미션을 받는 다. 그렇게 현지를 물색하던 마석도와 전일만은 용의자에게 미심쩍음을 느껴 추궁한 끝에, 악랄한 강해상의 존재를 알게 된다. 두 형사는 수사권이 없는 상황에도 한국과 베트남을 오가며 역대급 범죄를 저지르는 그를  잡겠다는 일념 하나로 호찌민 이곳저곳을 거침없이 누빈다.",
+      "movie_open_date": "2022-05-18",
+      "movie_vote": "7.2",
+      "movie_poster_url": "/nM1bSFJ84mB6woEFoGDjs7eeYWB.jpg",
+      "movie_runtime": 106,
+      "movie_country": "KR",
+      "movie_director": "이상용",
+      "movie_actor": "마동석, 손석구, 최귀화, 박지환, 허동원, ",
+      "movie_genres": [
+        { "id": 28, "name": "액션" },
+        { "id": 80, "name": "범죄" },
+        { "id": 35, "name": "코미디" },
+        { "id": 53, "name": "스릴러" }
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 56,
+    "field": {
+      "movie_id": 363579,
+      "movie_title": "밀정",
+      "movie_content": "1920년대 일제강점기. 조선인 출신 일본경찰 이정출은 무장독립운동단체  의열단의 뒤를 캐라는 특명으로 의열단의 리더 김우진에게 접근하고, 두 사람은 서로의 정체와 의도를 알면서도 속내를 감춘 채 가까워진다. 출처를 알 수 없는 정보가 쌍방간에 새어나가고 누가 밀정인지 알 수 없는 가운데, 의열단은 일제의 주요 시설을 파괴할 폭탄을 경성으로 들여오기 위해, 그리고 일본 경찰은 그들을 쫓아 상해에 모인다. 서로를 이용하려는 암투와 회유, 교란 작전이 숨가쁘게 펼쳐지는 긴장감 속에서 폭탄을 실은 열차는 국경을 넘어 경성으로 향하는데...",
+      "movie_open_date": "2016-09-07",
+      "movie_vote": "7.2",
+      "movie_poster_url": "/3OqkOFlXENLeIMLVBclGejpsaWd.jpg",
+      "movie_runtime": 140,
+      "movie_country": "KR",
+      "movie_director": "김지운",
+      "movie_actor": "송강호, 공유, 한지민, 鶴見辰吾, 엄태구, ",
+      "movie_genres": [
+        { "id": 28, "name": "액션" },
+        { "id": 53, "name": "스릴러" }
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 57,
+    "field": {
+      "movie_id": 571785,
+      "movie_title": "사냥의 시간",
+      "movie_content": "희망 없는 도시, 감옥에서 출소한 준석은 가족 같은 친구들인 장호와 기훈 그리고 상수와 함께 무모한 작전을 계획한다. 새로운 인생을 향한 부 푼 꿈도 잠시 이들을 뒤쫓는 정체불명의 추격자가 나타나면서 목숨마저 위협받게 된다. 서로가 세상의 전부인 네 친구들은 놈의 사냥에서 벗어날 수 있을까?",
+      "movie_open_date": "2020-02-22",
+      "movie_vote": "7.2",
+      "movie_poster_url": "/iF1eloJBtw0frs2EeshncF2oRCT.jpg",
+      "movie_runtime": 135,
+      "movie_country": "KR",
+      "movie_director": "윤성현",
+      "movie_actor": "이제훈, 안재홍, 최우식, 박정민, 박해수, ",
+      "movie_genres": [
+        { "id": 18, "name": "드라마" },
+        { "id": 28, "name": "액션" },
+        { "id": 53, "name": "스릴러" }
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 58,
+    "field": {
+      "movie_id": 955555,
+      "movie_title": "범죄도시 3",
+      "movie_content": "베트남 납치 살해범 검거 후 7년 뒤, 마석도는 새로운 팀원들과 함께 살인사건을 조사한다. 사건 조사 중 마석도는 신종 마약 사건이 연루되었음을 알게 되고 수사를 확대한다. 한편 마약 사건의 배후인 주성철은 계속해서 판을 키워가고, 약을 유통하던 일본 조직과 리키까지 한국에 들어오며 사건의 규모는 점점 더 커져가는데...",
+      "movie_open_date": "2023-05-31",
+      "movie_vote": "7.2",
+      "movie_poster_url": "/kPtNokhBtgwSp3MHaR3X4O0SPbF.jpg",
+      "movie_runtime": 105,
+      "movie_country": "KR",
+      "movie_director": "Eo Jeong-il",
+      "movie_actor": "마동석, 이준혁, 아오키 무네타카, 이범수, 김민재, ",
+      "movie_genres": [
+        { "id": 28, "name": "액션" },
+        { "id": 80, "name": "범죄" },
+        { "id": 35, "name": "코미디" },
+        { "id": 53, "name": "스릴러" }
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 59,
+    "field": {
+      "movie_id": 15067,
+      "movie_title": "좋은 놈, 나쁜 놈, 이상한 놈",
+      "movie_content": "1930년대, 다양한 인종이 뒤엉키고 총칼이 난무하는 무법천지 만주에서 각자 다른 방식으로 격동기를 살아가는 조선의 풍운아, 세 명의 남자가 운명처럼 맞닥뜨린다. 돈 되는 건 뭐든 사냥하는 현상금  사냥꾼 박도원, 최고가 아니면 참을 수 없는 마적단 두목 박창이, 잡초 같은 생명력의 독고다이 열차털이범 윤태구. 이들은 서로의 정체를 모르는 채 태구가 열차를 털다 발견한 지도를 차지하기 위해 대륙을 누비는 추 격전을 펼친다. 정체 불명의 지도 한 장을 둘러 싼 엇갈리는 추측 속에 일본군, 마적단까지 이들의 레이스에 가담하게 되는데...",
+      "movie_open_date": "2008-07-16",
+      "movie_vote": "7.2",
+      "movie_poster_url": "/inPPsMpQBKfDORKqemLZn8kQDTp.jpg",
+      "movie_runtime": 139,
+      "movie_country": "KR",
+      "movie_director": "Lee Yoon-jeong",
+      "movie_actor": "송강호, 이병헌, 정우성, 윤제문, 송영창, ",
+      "movie_genres": [
+        { "id": 28, "name": "액션" },
+        { "id": 12, "name": "모험" },
+        { "id": 35, "name": "코미디" },
+        { "id": 37, "name": "서부" }
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 60,
+    "field": {
+      "movie_id": 736732,
+      "movie_title": "브로커",
+      "movie_content": "세탁소를 운영하지만 늘 빚에 시달리는 상현과 베이비 박스 시설에서 일하는 보육원 출신의 동수. 거센 비가 내리는 어느 날 밤, 그들은 베이비 박스에 놓인 한 아기를 몰래 데려간다. 하지만 이튿날, 생각지 못하게 엄마 소영이 아기 우성을 찾으러 돌아온다. 아기가 사라진 것을 안 소영이 경찰에 신고하려 하자 솔직하게 털어놓는 두 사람. 우성이를 잘 키울 적임자를 찾아 주기 위해서 그랬다는 변명이 기가 막히지만 소영은 우성 이의 새 부모를 찾는 여정에 상현, 동수와 함께하기로 한다. 한편 이 모든 과정을 지켜본 형사 수진과 후배 이형사. 반 년째 이어온 수사를 마무리할 수 있는 결정적 증거를 포착하기 위해 이들의 뒤를 조용히 쫓는다.",
+      "movie_open_date": "2022-06-08",
+      "movie_vote": "7.2",
+      "movie_poster_url": "/8pAoMLsA1h3z2uXvt353P5aScPO.jpg",
+      "movie_runtime": 129,
+      "movie_country": "KR",
+      "movie_director": "고레에다 히로카즈",
+      "movie_actor": "송강호, 강동원, 배두나, 아이유, 이주영, ",
+      "movie_genres": [
+        { "id": 18, "name": "드라마" },
+        { "id": 35, "name": "코미디" },
+        { "id": 80, "name": "범죄" }
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 61,
+    "field": {
+      "movie_id": 59421,
+      "movie_title": "김복남 살인사건의 전말",
+      "movie_content": "은행에서 비정규직으로 일하는 해원은 휴가를 받아 어렸을 때 잠시 머물렀던 무도로 향한다. 어릴 적 친구 복남이 해원을 환대하지만  다른 섬주민들은 해원의 방문이 반갑지만은 않다. 복남의 배려로 편안한 휴가를 즐기며 서울에서의 스트레스를 잊어가던 해원에게 어느 날 부터인가 노예처럼 학대받고 사는 복남의 섬 생활이 보이기 시작하는데...",
+      "movie_open_date": "2010-08-19",
+      "movie_vote": "7.2",
+      "movie_poster_url": "/ucRS5itC1Ea4kgg8h8QBlCo3qnG.jpg",
+      "movie_runtime": 115,
+      "movie_country": "KR",
+      "movie_director": "장철수",
+      "movie_actor": "서영희, Hwang Geum-hee, Baek Su-ryeon, 박정학, 배성우, ",
+      "movie_genres": [
+        { "id": 53, "name": "스릴러" },
+        { "id": 80, "name": "범죄" },
+        { "id": 18, "name": "드라마" },
+        { "id": 27, "name": "공포" }
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 62,
+    "field": {
+      "movie_id": 269494,
+      "movie_title": "끝까지 간다",
+      "movie_content": "어머니의 장례식 날, 급한 연락을 받고 경찰서로 향하던 형사 고건수.  아내의 이혼 통보, 갑작스런 내사 소식까지,  스트레스 폭발 직전의 건수는 실수로 사람을 치는 사고를 일으키고 만다.  되돌릴 수 없는 상황! 어떻게든 모면해야 하는 건수는  누구도 찾을 수 없는 곳, 바로 어머니의 관 속에 시체를 숨기는데...",
+      "movie_open_date": "2014-05-29",
+      "movie_vote": "7.1",
+      "movie_poster_url": "/2MCy07o0FHQYjigKim5bHF78267.jpg",
+      "movie_runtime": 111,
+      "movie_country": "KR",
+      "movie_director": "김성훈",
+      "movie_actor": "이선균, 조진웅,  정만식, 신정근, 신동미, ",
+      "movie_genres": [
+        { "id": 80, "name": "범죄" },
+        { "id": 53, "name": "스릴러" },
+        { "id": 9648, "name": "미스터리" }
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 63,
+    "field": {
+      "movie_id": 22536,
+      "movie_title": "박쥐",
+      "movie_content": "정체불명의 피를 수혈 받고 뱀파이어가 된 신부 상현. 피를 원하는 욕구와 신앙심 사이에서 갈등하던 그는 우연히 어린 시절 친구 강우와 그의 아내 태주를 만나면서 인간적  욕망에까지 눈뜨게 된다. 상현은 태주의 묘한 매력에 빠져 쾌락을 갈구하고 태주는 히스테리컬한 시어머니와 무능력한 남편에게 억눌렸던 욕망을 깨워준 상현에게 집착한다. 점점 더 대담해져만 가던 둘의 사랑은 급기야 상현이 뱀파이어라는 사실을 알게 된 태주가 자신의 남편을 죽이자고 제안하고, 상현이 제안을 받아들이면서 새로운 국면에 접어드는데...",
+      "movie_open_date": "2009-04-30",
+      "movie_vote": "7.1",
+      "movie_poster_url": "/2CoIYuNwGmdhsV5CM8jRJ2sAZKe.jpg",
+      "movie_runtime": 133,
+      "movie_country": "KR",
+      "movie_director": "Jeongeun Choi",
+      "movie_actor": "송강호, 김옥빈, 김해숙, 신하균, 박인환, ",
+      "movie_genres": [
+        { "id": 18, "name": "드라마" },
+        { "id": 27, "name": "공포" },
+        { "id": 53, "name": "스릴러" }
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 64,
+    "field": {
+      "movie_id": 845222,
+      "movie_title": "킹덤: 아신전",
+      "movie_content": "비극과 배신이 삶을 덮친다. 기이하고 불길한 뭔가를 발견한다. 한순간에 가족과 동족을 잃은 여인. 오직 복수를 꿈꾸며 살아온 그녀가 짙은 어둠을 마주한다.",
+      "movie_open_date": "2021-07-23",
+      "movie_vote": "7.1",
+      "movie_poster_url": "/dBz61uAt6xjJt4yqhiZXQt0a1bB.jpg",
+      "movie_runtime": 93,
+      "movie_country": "KR",
+      "movie_director": "김성훈",
+      "movie_actor": "전지현, 박병은, 김시아, 김뢰하, 구교환, ",
+      "movie_genres": [
+        { "id": 18, "name": "드라마" },
+        { "id": 14, "name": "판타지" },
+        { "id": 53, "name": "스릴러" }
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 65,
+    "field": {
+      "movie_id": 4552,
+      "movie_title": "장화, 홍련",
+      "movie_content": "인적이 드문 시골, 이름 모를 들꽃들이 소담하게 피어 있는 신작로 끝에 일본식 목재 가옥이 홀로 서 있다. 낮이면 피아노 소리가 들려 올 듯 아름다운 그 집은 그러나,어둠이 내리면 귀기 서린 음산함을 뿜기 시작한다. 예사 롭지 않은 기운이 서려 있는 이 집에서 어른도 아이도 아닌 아름다운 두자매. 수미.수연이, 아름답지만 신경이 예민한 새엄마와 함께 살게 된 그날. 그 가족의 괴담이 시작된다.",
+      "movie_open_date": "2003-06-13",
+      "movie_vote": "7.1",
+      "movie_poster_url": "/aPUxyX8mfxMEgOvbzPyNhNkdfN.jpg",
+      "movie_runtime": 115,
+      "movie_country": "KR",
+      "movie_director": "Lee So-yeong",
+      "movie_actor": "임수정, 문근영, 염정아, 김갑수, 박미현, ",
+      "movie_genres": [
+        { "id": 18, "name": "드라마" },
+        { "id": 27, "name": "공포" },
+        { "id": 9648, "name": "미스터리" }
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 66,
+    "field": {
+      "movie_id": 123377,
+      "movie_title": "피 에타",
+      "movie_content": "끔찍한 방법으로 채무자들의 돈을 뜯어내며 살아가는 남자 ‘강도(이정진)’. 피붙이 하나 없이 외롭게 자라온 그에게 어느 날 ‘엄마’라는 여자(조민수)가 불쑥 찾아 온다. 여자의 정체에 대해  끊임없이 의심하며 혼란을 겪는 강도. 태어나 처음 자신을 찾아온 그녀에게 무섭게 빠져들기 시작한다. 그러던 어느 날 여자는 사라지고, 곧이어 그와 그녀 사이의 잔인한 비밀이 드러나는데…",
+      "movie_open_date": "2012-09-05",
+      "movie_vote": "7.1",
+      "movie_poster_url": "/xduKNVJjbUqlPYow57LD5KaHj8G.jpg",
+      "movie_runtime": 104,
+      "movie_country": "KR",
+      "movie_director": "Moon Si-hyun",
+      "movie_actor": "조민수, 이정진, Woo Ki-hong, Kang Eun-jin, 허준석, ",
+      "movie_genres": [{ "id": 18, "name": "드라마" }]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 67,
+    "field": {
+      "movie_id": 581389,
+      "movie_title": "승리호",
+      "movie_content": "2092년, 지구 는 병들고 우주 위성궤도에 인류의 새로운 보금자리인 UTS가 만들어졌다. 돈 되는 일이라면 뭐든 하는 조종사 태호, 과거 우주 해적단을 이끌었던 장선장, 갱단 두목이었지만 이제는 기관사가 된 타이거 박, 평생 이루고 싶은 꿈을 가진 작살잡이 로봇 업동이, 이들은 우주쓰레기를 주워 돈을 버는 청소선 승리호의 선원들이다. 어느 날 사고 우주정을 수거한 승리호는 그 안에 숨어있던 대량살상무기로 알려진 인간형 로봇 도로시를 발견 한다. 돈이 절실한 선원들은 도로시를 거액의 돈과 맞바꾸기 위한 위험한 거래를 계획하는데...",
+      "movie_open_date": "2021-02-05",
+      "movie_vote": "7.1",
+      "movie_poster_url": "/vOefWMYqC1S3aiCTD5MD8HeXl0Y.jpg",
+      "movie_runtime": 136,
+      "movie_country": "KR",
+      "movie_director": "Han Gyeong-hoon",
+      "movie_actor": "송중기, 김태리, 유해진, 진선규, 리차드 아미티지, ",
+      "movie_genres": [
+        { "id": 18, "name": "드라마" },
+        { "id": 14, "name": "판타지" },
+        { "id": 878, "name": "SF" }
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 68,
+    "field": {
+      "movie_id": 5488,
+      "movie_title": "싸이보그지만 괜찮아",
+      "movie_content": "엉뚱한 상상이 가득한 신세계 정신 병원. 어느 날, 자기가 싸이보그라고 생각하는 소녀 영군이 이 곳으로 들어온다. 개성 강한 사람들이 머무르는 곳이지만, 여기서도 영군은 유독 눈에 띄는 아이. 형광등, 자판기 등에 말을 거는 영군을 사람들은 이해할 수 없다. 평소 남의 특징을 관찰한 후 훔치기를 잘 하는 남자 일순은 그런 그녀를 유심히 관찰한다. 싸이보그는 밥을 먹으면 안 된다는 생각 때문에 점점 야위어만 가는 영군을 위해 일순은 자신의 능력을 총동원하는데...",
+      "movie_open_date": "2006-12-07",
+      "movie_vote": "7.1",
+      "movie_poster_url": "/vcNdtkQjZ91EtZyuacA27zxD29J.jpg",
+      "movie_runtime": 105,
+      "movie_country": "KR",
+      "movie_director": "박찬욱",
+      "movie_actor": "임수정, 비, 오달수, Lee Yeong-mi, 김춘기, ",
+      "movie_genres": [
+        { "id": 18, "name": "드라마" },
+        { "id": 35, "name": "코미디" },
+        { "id": 10749, "name": "로맨스" }
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 69,
+    "field": {
+      "movie_id": 961268,
+      "movie_title": "발레리나",
+      "movie_content": "소중한 친구의 죽음을 발견한 전직 경호원. 친구가 남긴 마지막 소원을 들어주기 위해 아름다운 복수에 나선다.",
+      "movie_open_date": "2023-10-05",
+      "movie_vote": "7.0",
+      "movie_poster_url": "/OmpAFNNjYRPao0PKPvMrgOh6bp.jpg",
+      "movie_runtime": 92,
+      "movie_country": "KR",
+      "movie_director": "이충현",
+      "movie_actor": "전종서, 김지훈, 박유림, 신세휘, 박형수, ",
+      "movie_genres": [
+        { "id": 28, "name": "액션" },
+        { "id": 53, "name": "스릴러" }
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 70,
+    "field": {
+      "movie_id": 1255,
+      "movie_title": "괴물",
+      "movie_content": "아버지가 운영하는 한강매점, 늘어지게 낮잠 자던 강두는 우연히 특이한 광경을 목격하게 된다. 생전 보도 못한 무언가가 한강다리에 매달려 움직이는 것이다. 정체를 알 수 없는 괴물은 둔치 위로 올라와 사람들을 거침없이 깔아뭉개고, 무차별로 물어뜯기 시작한다. 순식간에 아수라장으로 돌변하는 한강변. 강두도 뒤늦게 딸 현서를 데리고 정신없이 도망가지만, 꼭 잡았던 현서의 손을 놓치고 만다. 하루아침에 집과 생계, 그리고 현서까지 모든 것을 잃게 된 강두 가족. 돈도 없고 빽도 없는 그들은 위험구역으로 선포된 한강 어딘가에 있을 현서를 찾아 나선다.",
+      "movie_open_date": "2006-07-27",
+      "movie_vote": "7.0",
+      "movie_poster_url": "/tqDQzYGi1EWHgUZY91YRSJLDJVf.jpg",
+      "movie_runtime": 119,
+      "movie_country": "KR",
+      "movie_director": "Kim Jun-su",
+      "movie_actor": "송강호, 변희봉, 박해일, 배두나, 고아성, ",
+      "movie_genres": [
+        { "id": 27, "name": "공포" },
+        { "id": 18, "name": "드라마" },
+        { "id": 878, "name": "SF" }
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 71,
+    "field": {
+      "movie_id": 8653,
+      "movie_title": "섬",
+      "movie_content": "저수지의 낚시터, 낚시 가게 주인인 희진(서정)은 낚시꾼들에게 안주나 먹을 것들을 팔고 가끔은 그들의 욕정을 채워주기도 하면서 살아간다. 가게를 지키는 개가 유일한 벗이었던 희진 앞에 전직 경찰 현식(김유석)이 나타난다.  다른 사람과 사랑에 빠진 애인을 죽인 후, 자 살을 위해 낚시터로 숨어든 것. 희진은 절망의 그림자가 드리운 현식을 관찰하고 그의 자살을 막는다. 두 사람은 미묘한 교감을 느끼지만 낚시터에 은신 중이던 범죄자가 추적해온 경찰의 총에 맞아 중상을 입는 일이 일어난다. 현식은 불안감으로 낚시 바늘을 삼켜 자해를 하고 희진은 그를 구한 후, 섹스를 통해 그의 고통을 치유한다.  그 날 이후, 희진은 현식에게 집착을 보이고 그녀의 사랑과 고립감을 견디지 못한 현식은 낚시터를 떠나려 하는데...  저수지의 낚시터, 낚시 가게 주인인 희진(서정)은 낚시꾼들에게 안주나 먹을 것들을 팔고 가끔은 그들의 욕정을 채워주기도 하면서 살아간다. 가게를 지키는 개가 유일한 벗이었던 희진 앞에 전직 경 찰 현식(김유석)이 나타난다.  다른 사람과 사랑에 빠진 애인을 죽인 후, 자살을 위해 낚시터로 숨어든 것. 희진은 절망의 그림자가 드리운 현식을 관찰하고 그의 자살을 막는다. 두 사람은 미묘한 교감을 느끼지만 낚시터에 은신 중이던 범죄자가 추적해온 경찰의 총에 맞아 중상을 입는 일이 일어난다. 현식은 불안감으로 낚시 바늘을 삼켜 자해를 하고 희진은 그를 구한 후, 섹스를 통해 그의 고통을 치유한다.  그 날 이후, 희진은 현 식에게 집착을 보이고 그녀의 사랑과 고립감을 견디지 못한 현식은 낚시터를 떠나려 하는데...",
+      "movie_open_date": "2000-04-22",
+      "movie_vote": "7.0",
+      "movie_poster_url": "/fqubdg1F7XTYgmDm84LA45plzvK.jpg",
+      "movie_runtime": 90,
+      "movie_country": "KR",
+      "movie_director": "Jung Myung-sook",
+      "movie_actor": "김유석, 서정, 서원, 손민석, 조재현, ",
+      "movie_genres": [
+        { "id": 18, "name": "드라마" },
+        { "id": 53, "name": "스릴러" }
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 72,
+    "field": {
+      "movie_id": 33196,
+      "movie_title": "해운대",
+      "movie_content": "해운대 토박이 만식은 연희를 좋아하면서도 자신의 마음을 숨길 수 밖에 없다. 그러던 어느  날, 만식은 오랫동안 가슴 속에 담아두었던 자신의 마음을 전하기로 결심하고 연희를 위해 멋진 프로포즈를 준비한다. 한편 국제해양연구소의 지질학자 김휘 박사는 대마도와 해운대를 둘러싼 동해의 상황이 5년전 발생 했던 인도네시아 쓰나미와 흡사하다는 엄청난 사실을 발견하게 된다. 그는 안전하지 않다고 수차례 강조하지만 그의 경고에도 불구하고 재난 방재청은 지질학적 통계적으로 쓰나미가 한반도를 덮칠 확률은 없다고 단언한다. 그 순간에도 바다의 상황은 시시각각 변해가고, 일본 대마도가 내려 앉으면서 초대형 쓰나미가 생성된다. 한여름 더위를 식히고 있는 수백만의 휴가철 인파와 평화로운 일상을 보내고 있는 부산 시민들, 그리고 이제 막 서로의 마음을 확인한 만식과 연희를 향해 초대형 쓰나미가 시속 800km의 빠른 속도로 밀려오는데...",
+      "movie_open_date": "2009-07-22",
+      "movie_vote": "6.9",
+      "movie_poster_url": "/b8oI2Gx12Wf51HqkRnKrCuzP5g7.jpg",
+      "movie_runtime": 129,
+      "movie_country": "KR",
+      "movie_director": "Kang Dae-gyu",
+      "movie_actor": "설경구, 하지원, 박중훈, 엄정화, 이민기, ",
+      "movie_genres": [
+        { "id": 28, "name": "액션" },
+        { "id": 18, "name": "드라마" },
+        { "id": 53, "name": "스릴러" }
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 73,
+    "field": {
+      "movie_id": 437109,
+      "movie_title": "악녀",
+      "movie_content": "조직의 킬러로 자란 숙희는 보스이자 연인이었던 중상의 복수를 위해 마약조직 하나를 박살낸다. 사건 직후 구속된 숙희는 국가정보원으로부터 10년간 국가를 위해 임무를 수행하면 자유를 주겠다는 거래를 제안받는다. 뱃속에 중상의 아기가 자라고 있음을 안 숙희는 새 로운 삶을 위해 제안을 받아들이고 암살요원으로서의 생활을 시작한다. 한편 숙희를 철저히 감시, 통제하기 위해 국정원 요원 현수가 비밀리에 접근한다. 둘 사이의 관계가 가까워질 즈음 예상치 못한 인물의 등장으로  숙희의 거짓된 삶은 철저히 부서지기 시작한다.",
+      "movie_open_date": "2017-06-08",
+      "movie_vote": "6.9",
+      "movie_poster_url": "/2arvz5fsrE1BmlbjbBHSiLltlLq.jpg",
+      "movie_runtime": 123,
+      "movie_country": "KR",
+      "movie_director": "Choi Eun-jong",
+      "movie_actor": "김옥빈, 신하균, 성준, 김서형, 조은지, ",
+      "movie_genres": [
+        { "id": 28, "name": "액션" },
+        { "id": 80, "name": "범죄" },
+        { "id": 18, "name": "드라마" },
+        { "id": 53, "name": "스릴러" }
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 74,
+    "field": {
+      "movie_id": 110415,
+      "movie_title": "설국열차",
+      "movie_content": "기상 이변으로 모든 것이 꽁꽁 얼어붙은 지구, 살아남은 사람들을 태운 기차 한 대가 끝없이 궤도를 달리고 있다. 춥고 배고픈 사람들이 바글대는 빈민굴 같은 꼬리칸, 그리고 선택된 사람들이 술과 마약까지 즐기며 호화로운 객실을 뒹굴고 있는 앞쪽칸. 열차 안의 세상은 결코 평등하지 않다.  기차가 달리기 시작한 17년째, 꼬리칸의 젊은 지도자 커티스는 긴 세월 준비해 온 폭동을 일으킨다. 기차의 심장인 엔진을 장악하고 기차 전체를 해방시키기 위해 절대권력자 윌포드가 도사리고 있는 엔진 칸을 향해 질 주하는 커티스와 꼬리칸 사람들. 그들 앞에 예기치 못한 상황들이 기다리고 있는데...",
+      "movie_open_date": "2013-08-01",
+      "movie_vote": "6.9",
+      "movie_poster_url": "/jw66dQvYyXkZNA0bJ7nKvua9jDr.jpg",
+      "movie_runtime": 127,
+      "movie_country": "KR",
+      "movie_director": "Robert Grayson",
+      "movie_actor": "크리스 에반스, 송강호, 존 허트, 틸다 스윈튼, 제이미 벨, ",
+      "movie_genres": [
+        { "id": 28, "name": "액션" },
+        { "id": 878, "name": "SF" },
+        { "id": 18, "name": "드라마" }
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 75,
+    "field": {
+      "movie_id": 849869,
+      "movie_title": "길복순",
+      "movie_content": "청부살인이 본업이지만 겉으로 보기에는 평범한 이벤트 회사인 MK 소속 킬러 길복순은 작품은 반드시 완수해 내는 성공률 100%의 킬러이자, 10대 딸을 둔 엄마다. 업계에서는 아무도 범접할 수 없는 에이스지만, 딸 재영과의 관계는 서툴기만 한 싱글맘인 그는 자신과 딸  사이의 벽을 허물기 위해 퇴사까지 결심한다. MK 대표 차민규의 재계약 제안의 답을 미룬 채, 마지막 작품에 들어간 복순은 임무에 숨겨진 진실을 알게 된 후, 회사가 허가한 일은 반드시 시도해야 한다는 규칙을 어기게 된다. 그 소식을 들은 MK는 물론, 모든 킬러들의 타겟이 되고야 마는데…",
+      "movie_open_date": "2023-02-17",
+      "movie_vote": "6.8",
+      "movie_poster_url": "/1MQoYvEIvsCZMpTuBlWfbaliJes.jpg",
+      "movie_runtime": 137,
+      "movie_country": "KR",
+      "movie_director": "Lee Tai-sung",
+      "movie_actor": "전도연, 설경구, 김시아, 이솜, 구교환, ",
+      "movie_genres": [
+        { "id": 28, "name": "액션" },
+        { "id": 18, "name": "드라마" },
+        { "id": 53, "name": "스릴러" },
+        { "id": 80, "name": "범죄" }
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 76,
+    "field": {
+      "movie_id": 601796,
+      "movie_title": "외계+인 1부",
+      "movie_content": "2022년 현재, 가드와 썬더는 인간의 몸에 가두어진 외계인 죄수를 관리하며 지구에 살고 있다. 어느 날, 서울 상공에 우주선이 나타나고 형사 문도석은 기이한 광경을 목격하게 되는데.. 한편, 630년 전 고려시대 얼치기 도사 무륵과 천둥 쏘는 처자 이안이 엄청난 현 상금이 걸린 신검을 차지하기 위해 서로를 속고 속이는 가운데 신검의 비밀을 찾는 두 신선 흑설과 청운, 가면 속의 자장도 신검 쟁탈전에 나선다. 그리고 우주선이 깊은 계곡에서 빛을 내며 떠오르는데…",
+      "movie_open_date": "2022-07-20",
+      "movie_vote": "6.8",
+      "movie_poster_url": "/ynyN9hdxL5vq7GnSX8Fdz3TfoTE.jpg",
+      "movie_runtime": 142,
+      "movie_country": "KR",
+      "movie_director": "최동훈",
+      "movie_actor": "류준열, 김우빈,  김태리, 소지섭, 염정아, ",
+      "movie_genres": [
+        { "id": 878, "name": "SF" },
+        { "id": 28, "name": "액션" },
+        { "id": 14, "name": "판타지" },
+        { "id": 12, "name": "모험" }
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 77,
+    "field": {
+      "movie_id": 581387,
+      "movie_title": "백두산",
+      "movie_content": "대한민국 관측 역사상 최대 규모의 백두산 폭발 발생. 갑작스러운 재난에 한반도는 순식간에 아비규환이 되고, 남과 북 모두를 집어삼킬 추가 폭발이 예측된다. 사상 초유의 재난을 막기 위해 전유경은 백두산 폭발을 연구해 온 지질학 교수 강봉래의 이론에 따른 작전을 계획하고, 전역을 앞둔 특전사 EOD 대위 조인창이 남과 북의 운명이 걸린 비밀 작전에 투입된다. 작전의 키를 쥔 북한 무력부 소속 일급 자원 리준평과 접선에 성공한 인창. 하지만 준평은 속을 알 수 없는 행동으로 인창을 곤란하게 만든다. 한편, 인창이 북한에서 펼쳐지는 작전에 투입된 사실도 모른 채 서울에 홀 로 남은 최지영은 재난에 맞서 살아남기 위해 고군분투하고 그 사이, 백두산 마지막 폭발까지의 시간은 점점 가까워 가는데…",
+      "movie_open_date": "2019-12-19",
+      "movie_vote": "6.8",
+      "movie_poster_url": "/1n5q3XpEhCe7TnGHzsHs5pwVT8O.jpg",
+      "movie_runtime": 128,
+      "movie_country": "KR",
+      "movie_director": "이해준",
+      "movie_actor": "이병헌, 하정우, 마동석, 전혜진, 수지, ",
+      "movie_genres": [
+        { "id": 28, "name": "액션" },
+        { "id": 12, "name": "모험" },
+        { "id": 53, "name": "스릴러" }
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 78,
+    "field": {
+      "movie_id": 18377,
+      "movie_title": "미녀는 괴로워",
+      "movie_content": "K-1이나 씨름판에 나가도 거뜬할  체격을 가졌지만 한 남자에게 사랑받고 싶은 여린 마음의 소유자 한나. 그녀에게 허락된 유일한 신의 선물은 천상의 목소리. 하지만 이마저도 섹시 미녀가수 '아미'의 목소리를 대신해주는 신세다. '아미'의 음반 프로듀서이자 자신의 음악성을 인정해준 유일한 사람 한상준을 남몰래 사랑하게 된 그녀는 드디어 꿈에 그리던 그의 생일파티에 초대받고 들뜬 마음으로 한껏 멋을 부리고 나타나는데...",
+      "movie_open_date": "2006-12-14",
+      "movie_vote": "6.8",
+      "movie_poster_url": "/hXadaSx1LpT7Hv5dkGWD0SX7z7R.jpg",
+      "movie_runtime": 120,
+      "movie_country": "KR",
+      "movie_director": "김용화",
+      "movie_actor": "주진모, 김아중, 성동일, 김현숙, 임현식, ",
+      "movie_genres": [
+        { "id": 18, "name": "드라마" },
+        { "id": 35, "name": "코미디" },
+        { "id": 10749, "name": "로맨스" }
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 79,
+    "field": {
+      "movie_id": 33908,
+      "movie_title": "쓰리, 몬스터",
+      "movie_content": "segment 1 - '상자(Box)'(일본). 서커스 단원인 쌍둥이 자매, 쿄코와 쇼코. 의붓 아버지 히키타를 사랑하는 교코는 그의 사랑을 독차지하는 쇼코를 질투한다. 언니가 없어지길 바랬던 교코는 그녀를 위험에 빠뜨리고 결국, 쇼코는 화재로 목숨을 잃는다. 어느덧 어른이 된 교코. 어느 날, 언니의 이름으로 배달된 흰 장미꽃과 초대장을 받는다. 이제, 오랫동안 감춰져 있던 무서운 비밀들이 하나씩 드러나기 시작하는데...  segment 2 - '만두(餃子: Dumplings)'(홍콩). 젊은 시절 유명 배우였던 칭. 어린 여자를 만나는 남편 때문에 외로움과 질투를 느끼던 그녀는 젊어지고 싶은 욕망에 사로잡힌다. 그러던 중, 먹으면 젊어지게 된다는 메이의 만두 가게를 찾아 간다. 매일 매일 만두를 먹던 그녀는 거짓말처럼 다시 젊음을 되찾게 된다. 어느 날, 칭은 신비의 만두가 낙태한 태아로 만들어졌다는 엄청난 비밀을 알게 된다. 그러나, 이미 중독이  되어버린 그녀는 더 큰 재료를 찾아다니기 시작하는데...  segment 3 - '컷(Cut). 한국. 능력 있고, 부유하고, 착하기까지 한 남부러울 것 없는 인기 영화감독. 어느 날, 그의 집에 괴한이 칩입했다. 감독은 자신의 집과 똑같이 만든 촬영 세트장에 갇히게 된다. 감독을 착하다는 이유만으로 납치한 괴한은 그의 아내를 피아노 줄로 꽁꽁 묶어 놓은 채, 길거리에서 데려온 아이를 죽이지 않으면 아내의 손가락을 자르겠다고 협박한다. 아내의 손가락이냐, 아이의 목숨이냐... 이제, 감독은 끔찍한 딜레마에 빠지게 되는데...",
+      "movie_open_date": "2004-08-20",
+      "movie_vote": "6.8",
+      "movie_poster_url": "/l4miw3oPkAbhSGNtv9RIs6ZvOkh.jpg",
+      "movie_runtime": 126,
+      "movie_country": "KR",
+      "movie_director": "박찬욱",
+      "movie_actor": "하세가와 쿄코, 渡部篤郎, Mai Suzuki, Yuu Suzuki, Mitsuru Akaboshi, ",
+      "movie_genres": [{ "id": 27, "name": "공포" }]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 80,
+    "field": {
+      "movie_id": 581392,
+      "movie_title": "반도",
+      "movie_content": "전대미문의 재난 이후 4년이 흐른 대한민국은 버려진 땅이 되어버렸다. 사람들은 고립된 섬이 된 반도에 갇혔고  누구의 생사도 확인할 수 없는 상황에서 정석은 피할 수 없는 미션을 받고 한국 땅에 다시 발을 들인다. 정석은 미지의 세계인 그곳에서 예상치 못한 습격을 받고 일촉즉발의 순간 ‘반도’의 생존자들을 만나게 된다.",
+      "movie_open_date": "2020-07-15",
+      "movie_vote": "6.8",
+      "movie_poster_url": "/gqRUcdZ7gBrC89PbqYWgJ0XCH7E.jpg",
+      "movie_runtime": 115,
+      "movie_country": "KR",
+      "movie_director": "Min Hong-nam",
+      "movie_actor": "강동원, 이정현, 이레, 권해효, 김민재, ",
+      "movie_genres": [
+        { "id": 27, "name": "공포" },
+        { "id": 28, "name": "액션" },
+        { "id": 53, "name": "스릴러" }
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 81,
+    "field": {
+      "movie_id": 933131,
+      "movie_title": "황야",
+      "movie_content": "세상은 폐허로 변했다. 오직 힘이 지배하는 무법천지가 되었다. 그 황량한 땅에서 살아가는 자들이 생존을 위해 최후의 사투를 벌이는 액션 블록버스터.",
+      "movie_open_date": "2024-01-25",
+      "movie_vote": "6.7",
+      "movie_poster_url": "/uyM1tesNMM7fg6zmozn8MYD036G.jpg",
+      "movie_runtime": 107,
+      "movie_country": "KR",
+      "movie_director": "허명행",
+      "movie_actor": "마동석, 이희준, 이준영, 노정의, 안지혜, ",
+      "movie_genres": [
+        { "id": 878, "name": "SF" },
+        { "id": 28, "name": "액션" }
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 82,
+    "field": {
+      "movie_id": 626412,
+      "movie_title": "외계+인 2부",
+      "movie_content": "인간의 뇌 속에 갇혀 있는 외계인 포로들의 탈출을 막으려다 먼 과거에 갇혀버린 이안과 썬더는 시간을 관통하는 문을 열 수 있는 신검을 얻게 된다. 한편, 이안의 탈출을 도왔던 무륵은 자신의 몸에 이상한 존재가 있다는 것을 느끼자 혼란에 빠진다. 무륵의 몸에 숨어있는 외계인으로 의심되는 존재가 이안과 무륵을 추격하기 시작하고, 이안은 미래로 돌아가 외계인과 맞서 하바의 폭발을 막아야만 하는데.  마침내 시간 의 문이 열리고 무륵, 이안, 썬더의 비밀이 드러나기 시작한다!",
+      "movie_open_date": "2024-01-10",
+      "movie_vote": "6.6",
+      "movie_poster_url": "/3l04H9ljNegDGG9gnKDhLExJvpz.jpg",
+      "movie_runtime": 122,
+      "movie_country": "KR",
+      "movie_director": "최동훈",
+      "movie_actor": "류준열, 김태리, 김우빈, 이하늬, 염정아, ",
+      "movie_genres": [
+        { "id": 878, "name": "SF" },
+        { "id": 28, "name": "액션" },
+        { "id": 14, "name": "판타지" },
+        { "id": 12, "name": "모험" }
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 83,
+    "field": {
+      "movie_id": 389868,
+      "movie_title": "서울역",
+      "movie_content": "대한민국의 사회, 역사, 시대를 관통하는 서울역. 어느 날, 치유가 불 가능한 상태의 노숙자가 비틀거리는 가운데  집을 나온 소녀와 남자친구, 그리고 딸을 찾는 아버지가 이 곳에 함께 한다. 이윽고 서울역을 시작으로 이상 바이러스가 퍼지기 시작하고, 서울은 삽시간에 통제 불능 상태가 되는데…",
+      "movie_open_date": "2016-08-17",
+      "movie_vote": "6.5",
+      "movie_poster_url": "/6RaG5a6FJKwq0LLP2I9tUYS6qtY.jpg",
+      "movie_runtime": 93,
+      "movie_country": "KR",
+      "movie_director": "연상호",
+      "movie_actor": "류승룡, 심은경, 이준, Kim Jae-rok, 장혁진, ",
+      "movie_genres": [
+        { "id": 16, "name": "애니메이션" },
+        { "id": 27, "name": "공포" },
+        { "id": 878, "name": "SF" },
+        { "id": 28, "name": "액션" },
+        { "id": 53, "name": "스릴러" }
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 84,
+    "field": {
+      "movie_id": 45202,
+      "movie_title": "하녀",
+      "movie_content": "이혼 후 식당 일을 하면서도 해맑게 살아가던 은이는 자신에게는 까마득하게 높은 상류층 대저택의 하녀로 들어간다. 완벽한 주인집 남자 훈, 쌍둥이를 임신 중인 안주인 해라, 자신을 엄마처럼 따르는 여섯 살 나미, 그리고 집안을 총괄하는 나이든 하녀 병식과의 생활은 낯설지만 즐겁다. 어느 날 가족 여행 에 동행하게 된 은이는 자신의 방에 찾아온 훈의 은밀한 유혹에 이끌려 육체적인 관계를 맺고 본능적인 행복을 느낀다. 은이와 훈은 격렬한 관계를 이어가지만 병식이 그들의 사이를 눈치채며 대저택에 알 수 없는 긴장 감이 감돌기 시작하는데...",
+      "movie_open_date": "2010-05-13",
+      "movie_vote": "6.4",
+      "movie_poster_url": "/7I7XfYRRCbozifGdECM1xdSz5g3.jpg",
+      "movie_runtime": 107,
+      "movie_country": "KR",
+      "movie_director": "남궁선",
+      "movie_actor": "전도연, 이정재, 서우, 윤여정, 박지영, ",
+      "movie_genres": [
+        { "id": 53, "name": "스릴러" },
+        { "id": 18, "name": "드라마" }
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 85,
+    "field": {
+      "movie_id": 799379,
+      "movie_title": "늑대사냥",
+      "movie_content": "동남아시아로 도피한 인터폴 수배자들을 이송할 움직이는 교도소 프론티어 타이탄. 극악무도한 이들과 베테랑 형사들이 필리핀 마닐라 항구에 모이고 탈출을 꿈꾸는 종두, 한국으로 돌아가야만 하는 도일을 비롯해 이들은 각자의 목적과 경계심을 품고 탑승한다. 한국으로 향하던 중, 태평양 한 가운데에서 이들에게는 지금까지 보지 못한 극한의 상황과 마주하게 되는데…",
+      "movie_open_date": "2022-09-21",
+      "movie_vote": "6.4",
+      "movie_poster_url": "/op2y1gvqKhAh4yAPLwc4PlX3XRv.jpg",
+      "movie_runtime": 122,
+      "movie_country": "KR",
+      "movie_director": "김홍선",
+      "movie_actor": "서인국, 장동윤, 박호산, 정소민, 고창석, ",
+      "movie_genres": [
+        { "id": 28, "name": "액션" },
+        { "id": 53, "name": "스릴러" },
+        { "id": 27, "name": "공포" },
+        { "id": 80, "name": "범죄" }
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 86,
+    "field": {
+      "movie_id": 452015,
+      "movie_title": "염력",
+      "movie_content": "평범한 은행 경비원 석헌. 어느 날 갑자기 그의 몸에 이상한 변화가 찾아온다. 생각만으로 물건을 움직이는 놀라운 능력, 바로 염력이 생긴 것. 한 편, 민사장과 홍상무에 의해  석헌의 딸, 청년 사장 루미와 이웃들이 위기에 처하게 되고. 석헌과 루미, 그리고 변호사 정현이 그들에 맞서며 놀라운 일이 펼쳐지는데...",
+      "movie_open_date": "2018-01-31",
+      "movie_vote": "6.2",
+      "movie_poster_url": "/5LRL9cvVQl0Mne8CZslb5VNwY6v.jpg",
+      "movie_runtime": 101,
+      "movie_country": "KR",
+      "movie_director": "Min Hong-nam",
+      "movie_actor": "류승룡, 심은경, 박정민, 김민재, 정유미, ",
+      "movie_genres": [
+        { "id": 14, "name": "판타지" },
+        { "id": 28, "name": "액션" }
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 87,
+    "field": {
+      "movie_id": 843794,
+      "movie_title": "정이",
+      "movie_content": "급격한 기후변화로 지구는 폐허가 되고 인류는 우주에 새로운 터전 쉘터를 만들어 이주한다. 수십 년째 이어지는 내전에서 윤정이는 수많은 작전의 승리를 이끌며 전설의 용병으로 거듭난다. 하지만 단 한 번의 작전 실패로 식물인간이 되 고, 군수 A.I. 개발 회사 크로노이드는 그녀의 뇌를 복제해 최고의 A.I. 전투 용병 개발을 시작한다. 35년 후, 정이의 딸 윤서현은 정이 프로젝트의 연구팀장이 되어 전투 A.I. 개발에 힘쓴다. 끝없는 복제와 계속되는  시뮬레이션에도 연구에 진전이 없자, 크로노이드는 정이를 두고 또 다른 프로젝트를 준비한다. 이를 알게 된 서현은 정이를 구하기 위한 계획을 세우는데…",
+      "movie_open_date": "2023-01-12",
+      "movie_vote": "6.1",
+      "movie_poster_url": "/qEkatvFb6hrebLBAanb25ea26yh.jpg",
+      "movie_runtime": 98,
+      "movie_country": "KR",
+      "movie_director": "윤영우",
+      "movie_actor": "강수연, 김현주, 류경수, 엄지원, 이동희, ",
+      "movie_genres": [{ "id": 878, "name": "SF" }]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 88,
+    "field": {
+      "movie_id": 800345,
+      "movie_title": "카터",
+      "movie_content": "기억을 잃은 채 깨어난 남자. 귀에 장착된 장치를 통해 의문의 목소리가 들려오고, 이제 이 목소리의 지시에 따라 위험천만한 인질 구조 작전에 뛰어들어야 한다.",
+      "movie_open_date": "2022-08-05",
+      "movie_vote": "6.0",
+      "movie_poster_url": "/aGKln9LeFkP30MAiwFiuaMmNvzG.jpg",
+      "movie_runtime": 132,
+      "movie_country": "KR",
+      "movie_director": "정병길",
+      "movie_actor": "주원, 이성재, 정소리, Kim Bo-min, 카밀라 벨, ",
+      "movie_genres": [
+        { "id": 28, "name": "액션" },
+        { "id": 53, "name": "스릴러" },
+        { "id": 80, "name": "범죄" }
+      ]
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 89,
+    "field": {
+      "movie_id": 10253,
+      "movie_title": "디 워",
+      "movie_content": "LA 도심 한복판에서 벌어진 의문의 대형 참사. 단서는 단 하나, 현장에서 발견된 정체불명의 비늘뿐. 사건을 취재하던 방송기자 이든은 어린 시절 잭에게 들었던 숨겨진 동양의 전설을 떠올리고. 여의주를 지닌 신비의 여인 세라와의 만남으로 인해 이무기의 전설이 현실로 다가오고 있음을 직감한다. 전설의 재현을 꿈꾸는 악한 이무기 부라퀴 무리들이 서서히 어둠으로 LA를 뒤덮는 가운데, 이들과 맞설 준비를 하는 이든과 세라. 모든 것을 뒤엎을 거대한 전쟁 앞에서 이들의 운명은 어떻게 될 것인가.",
+      "movie_open_date": "2007-08-01",
+      "movie_vote": "4.6",
+      "movie_poster_url": "/h252E4ZhETblM76j5KwbSZEv7id.jpg",
+      "movie_runtime": 92,
+      "movie_country": "KR",
+      "movie_director": "Alexa Sheehan",
+      "movie_actor": "Jason Behr, Amanda Brooks, 로버트 포스터, 크레이그 로빈슨, Aimee Garcia, ",
+      "movie_genres": [
+        { "id": 14, "name": "판타지" },
+        { "id": 18, "name": "드라마" },
+        { "id": 27, "name": "공포" },
+        { "id": 28, "name": "액션" },
+        { "id": 53, "name": "스릴러" },
+        { "id": 878, "name": "SF" }
+      ]
+    }
+  }
+]
