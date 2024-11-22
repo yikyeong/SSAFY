@@ -39,6 +39,14 @@ export const useMovieStore = defineStore('movie', () => {
         console.log(err)
       })
   }
+
+  const getComments = function () {
+    axios({
+      method:'get',
+      url:`${API_URL}/`
+    })
+  }
+
   const searchReviews = function () {
     if (query.value) {
       const searchQuery = `${query.value} 영화 리뷰`

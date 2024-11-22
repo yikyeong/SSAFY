@@ -1,5 +1,5 @@
 <template>
-    <carousel class="mt-16" :itemsToShow="carouselViewCnt" :autoplay="2000" :transition="2000" :wrap-around="true" style="height: 85vh;">
+    <carousel class="mt-16" :itemsToShow="carouselViewCnt" :autoplay="2000" :transition="2000" :wrap-around="true" style="height: auto;">
         <slide v-if="moviesLoading" v-for="i in 10" :key="i">
             <v-skeleton-loader
             class="shadow-sm word-keep-all product-card-inner ma-3 carousel__item"
@@ -32,7 +32,7 @@ if(xl.value) {
 } else if(lg.value) {
     carouselViewCnt.value = 3.3;
 } else if(md.value) {
-    carouselViewCnt.value = 2.5;
+    carouselViewCnt.value = 5;
 } else if(sm.value) {
     carouselViewCnt.value = 1.95;
 } else if(xs.value && width.value >= 300) {

@@ -2,8 +2,8 @@
 from rest_framework.response import Response
 from rest_framework.decorators import api_view
 from django.shortcuts import get_list_or_404, get_object_or_404
-from .models import Movie
-from .serializers import MovieListSerializer, MovieDetailSerializer
+from .models import Movie, Comment
+from .serializers import MovieListSerializer, MovieDetailSerializer, CommentSerializer
 
 @api_view(['GET'])
 def movie_list(request):
@@ -13,10 +13,13 @@ def movie_list(request):
         return Response(serializer.data)
 
 @api_view(['GET'])
-def movie_detail(request, movie_pk):
-    movie = get_object_or_404(Movie, pk=movie_pk)
-
+def movie_detail(request, movie_id):
+    movie = get_object_or_404(Movie, pk=movie_id)
     if request.method == 'GET':
         serializer = MovieDetailSerializer(movie)
         return Response(serializer.data)
-    
+
+def read_comment(request, movie_id):
+    comment = Comment.objects.filter(movie_id=movie_id).order_by('-commentCreate')
+    serializer = CommentSerializer(comment)
+    return Response(serializer.data)

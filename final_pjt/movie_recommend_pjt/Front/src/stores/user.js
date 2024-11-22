@@ -120,7 +120,7 @@ export const useUserStore = defineStore('user', () => {
   }
   
   const logOut = function () {
-    if (!token.value) {
+    if (!token.value || token.value.trim() === "") {
       console.error("로그아웃할 토큰이 없습니다.");
       return;
     }
@@ -140,43 +140,17 @@ export const useUserStore = defineStore('user', () => {
         router.push({ name: 'home' })
       })
       .catch((err) => {
+        token.value = null;
+        localStorage.removeItem('token');
+        router.push({ name: 'home' });
+
         if (err.response) {
-          console.log('서버 오류:', err.response.data);  // 서버에서 반환된 에러 메시지 출력
-          console.log('상태 코드:', err.response.status);  // 상태 코드 출력
-        } else if (err.request) {
-          console.log('요청 오류:', err.request);  // 요청이 보내졌으나 응답을 받지 못한 경우
+          console.log('서버 오류:', err.response.data);
+          alert('서버 오류로 인해 로그아웃되지 않았습니다.');
         } else {
-          console.log('에러 발생:', err.message);  // 그 외의 에러
+          alert('네트워크 오류가 발생했습니다. 다시 로그인 해주세요.');
         }
       })
-
-  // const profile = function () {
-  //   axios({
-  //     method: 'get',
-  //     url : `${URL}/accounts/profile/${user.value}`,
-  //     headers: {
-  //       Authorization: `Token ${token.value}`, // 토큰을 헤더에 포함
-  //     }
-  //   })
-  //     .then((res) => {
-  //       userdata.value = {
-  //         username : res.data.username,
-  //         password1 : res.data.password1,
-  //         password2 : res.data.password2,
-  //       }
-  //       console.log('프로필 데이터:', userdata.value);
-  //   })
-  //     .catch((err) => {
-  //       if (err.response) {
-  //         console.error('서버 오류:', err.response.data);
-  //         console.error('상태 코드:', err.response.status);
-  //       } else if (err.request) {
-  //         console.error('요청 오류:', err.request);
-  //       } else {
-  //         console.error('에러 발생:', err.message);
-  //       }
-  //     })
-  //   }
   }
   return { API_URL, token, isLogin, signUp, logIn, logOut, user}
 }, { persist: true })

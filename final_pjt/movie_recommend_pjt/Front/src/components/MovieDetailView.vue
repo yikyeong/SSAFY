@@ -14,11 +14,14 @@
         <button @click="showTrailer">
             <img src="@/img/logo/youtubelogo.png" style="width: 30px" />
         </button>
-
+        
         <!-- 예고편 모달 -->
         <div v-if="showTrailerModal" class="trailer-modal">
             <iframe :src="`https://www.youtube.com/embed/${trailerId}`" frameborder="0" allowfullscreen></iframe>
             <button @click="closeTrailerModal">Close</button>
+        </div>
+        <div>
+            <CommentList/>
         </div>
     </div>
 </template>
@@ -26,6 +29,7 @@
 <script setup>
 import { ref, onMounted } from 'vue'
 import axios from 'axios'
+import CommentList from './CommentList.vue';
 
 const props = defineProps({
     id: Number,  // 라우터에서 전달되는 movie id

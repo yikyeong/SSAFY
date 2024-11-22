@@ -4,7 +4,7 @@ import StartView from '@/views/StartView.vue'
 import SearchReviewView from '@/views/SearchReviewView.vue'
 import SearchMovieView from '@/views/SearchMovieView.vue'
 import MovieRecommendView from '@/views/MovieRecommendView.vue'
-import MovieDetailView from '@/views/MovieDetailView.vue'
+import MovieDetailView from '@/components/MovieDetailView.vue'
 import ProfileView from '@/views/ProfileView.vue'
 
 // User 관련
