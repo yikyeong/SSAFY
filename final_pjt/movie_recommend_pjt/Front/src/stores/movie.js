@@ -40,11 +40,21 @@ export const useMovieStore = defineStore('movie', () => {
       })
   }
 
-  const getComments = function () {
+  const getComments = function (movieId) {
     axios({
       method:'get',
-      url:`${API_URL}/`
+      url:`${API_URL}/movies/${movieId}/comment/`,
+      headers: {
+        Authorization: `Token ${token.value}`,
+      }
     })
+      .then((res) => {
+        console.log(res.data)
+        comment.value = res.data
+      })
+      .catch((err) => {
+        console.log(err)
+      })
   }
 
   const searchReviews = function () {
@@ -67,5 +77,5 @@ export const useMovieStore = defineStore('movie', () => {
   // ------------------------------------------------------------------------------------
   const movies = ref([moviesData])
 
-  return { movie, API_URL, getMovieDetail, movies }
+  return { movie, API_URL, getMovieDetail, movies, getComments }
 })

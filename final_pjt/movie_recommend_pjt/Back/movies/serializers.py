@@ -28,7 +28,7 @@ class MovieDetailSerializer(serializers.ModelSerializer):
 
 class CommentSerializer(serializers.ModelSerializer):
     movie = MovieDetailSerializer()
-    user = UserSerializer
+    user = UserSerializer()
     class Meta : 
         model = Comment
         fields = '__all__'

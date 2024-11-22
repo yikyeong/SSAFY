@@ -8,7 +8,16 @@
 </template>
 
 <script setup>
+  import { onMounted } from 'vue'
+  import { useMovieStore } from '@/stores/movie'
   
+  const store = useMovieStore()
+
+  onMounted(() => {
+    const movieId = 1
+    store.getComments(movieId)
+    console.log(res)
+  })
 </script>
 
 <style scoped>

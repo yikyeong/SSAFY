@@ -19,7 +19,9 @@ def movie_detail(request, movie_id):
         serializer = MovieDetailSerializer(movie)
         return Response(serializer.data)
 
+@api_view(['GET'])
 def read_comment(request, movie_id):
-    comment = Comment.objects.filter(movie_id=movie_id).order_by('-commentCreate')
-    serializer = CommentSerializer(comment)
-    return Response(serializer.data)
+    comments = Comment.objects.filter(movie_id=movie_id).order_by('-commentCreate')
+    if request.method == 'GET':
+        serializer = CommentSerializer(comments, many=True)
+        return Response(serializer.data)

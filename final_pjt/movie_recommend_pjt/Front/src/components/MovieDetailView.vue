@@ -51,6 +51,7 @@ const fetchMovieDetails = (id) => {
         .then((response) => {
             movie.value = response.data  // 영화 상세 정보를 movie에 저장
             genreContent.value = response.data.genres.map(genre => genre.name).join(', ')  // 장르들 연결
+            console.log(token)
         })
         .catch((error) => {
             console.error('영화 정보를 가져오는 데 실패했습니다:', error)
